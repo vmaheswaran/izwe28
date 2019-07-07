@@ -1,0 +1,2724 @@
+games1.clear
+games1
+games1 += "abcdefg"
+games1 += "abcdef"
+games1 += "abcde"
+games1 += "abcd"
+games1 += "abc"
+games1 -= "abc"
+val a=sc.textFile("file:///home/hduser/cust", 2)
+    val b=a.map(x=>x.split(",")).map(x=>(x(0),x(1)))
+b.collect();
+val b=a.map(x=>x.split(",")).map(x=>(x(0),x(1).toUpperCase()))
+b.collect();
+b.zip(b);
+res175.collect
+res175.collect.toList
+res175.collect.toSeq
+res175.collect.toSet
+val b=a.map(x=>x.split(",")).map(x=>(x(0),x(1).toUpperCase())).filter(x=>x._2 contains("INCEPTEZ"))
+        b.collect();
+val b=a.map(x=>x.split(",")).map(x=>(x(0),x(1).toUpperCase())).filter(!x=>x._2 contains("INCEPTEZ"))
+val b=a.map(x=>x.split(",")).map(x=>(x(0),x(1).toUpperCase())).filter(x=>x._2 !contains("INCEPTEZ"))
+val b=a.map(x=>x.split(",")).map(x=>(x(0),x(1).toUpperCase())).filter(x=>x._2.contains("INCEPTEZ"))
+val b=a.map(x=>x.split(",")).map(x=>(x(0),x(1).toUpperCase())).!filter(x=>x._2 contains("INCEPTEZ"))
+val b=a.map(x=>x.split(",")).map(x=>(x(0),x(1).toUpperCase())).!filter(x=>x._2 contains("INCEPTEZ")).reduceByKey(_+_)
+val b=a.map(x=>x.split(",")).map(x=>(x(0),x(1).toUpperCase())).filter(x=>x._2 contains("INCEPTEZ")).reduceByKey(_+_)
+b.collect
+val frdd = sc.textFile("file:///home/hduser/courses.log");
+val fmrdd=frdd.flatMap(x=>x.split(" "))
+frdd.getNumPartitions
+frdd.collect
+frdd.foreach(println)
+fmrdd.foreach(println)
+val pairrdd=fmrdd.map(x=>(x,1))
+pairrdd.foreach(println)
+pairrdd.reduceByKey((x,y)=>x+y)
+res5.foreach(println)
+val resrdd=frdd.flatMap(x=>x.split(" ")).map(x=>(x,1)).reduceByKey((x,y)=>x+y)
+resrdd.collect
+val frdd = sc.textFile("file:///home/hduser/courses.log",4);
+frdd.getNumPartitions
+val frdd = sc.textFile("file:///home/hduser/courses.log",3);
+frdd.getNumPartitions
+frdd.glom.collect
+x match 
+   { 
+       // if value of x is 0, 
+       // this case will be executed 
+       case 0 => "Hello, Techies"
+         
+       // if value of x is 1,  
+       // this case will be executed 
+       case 1 => "Are you learning Scala?"
+         
+       // if x doesnt match any sequence, 
+       // then this case will be executed 
+       case _ => "Good Luck!!"
+   }
+val x=10
+x match 
+   { 
+       // if value of x is 0, 
+       // this case will be executed 
+       case 0 => "Hello, Techies"
+         
+       // if value of x is 1,  
+       // this case will be executed 
+       case 1 => "Are you learning Scala?"
+         
+       // if x doesnt match any sequence, 
+       // then this case will be executed 
+       case _ => "Good Luck!!"
+   }
+val x=0
+x match 
+   { 
+       // if value of x is 0, 
+       // this case will be executed 
+       case 0 => "Hello, Techies"
+         
+       // if value of x is 1,  
+       // this case will be executed 
+       case 1 | 0 => "Are you learning Scala?"
+         
+       // if x doesnt match any sequence, 
+       // then this case will be executed 
+       case _ => "Good Luck!!"
+   }
+x match 
+   { 
+       // if value of x is 0, 
+       // this case will be executed 
+       case 0 => "Hello, Techies"
+         
+       // if value of x is 1,  
+       // this case will be executed 
+       case 0 => "Are you learning Scala?"
+         
+       // if x doesnt match any sequence, 
+       // then this case will be executed 
+       case _ => "Good Luck!!"
+   }
+def a[T](v:T):Any=
+{
+println(v);
+}
+!quit
+:quit
+val a=10
+val b=10
+a=20
+var a=10
+a=20
+val a=20
+val a=30
+var b=10
+b=a+b
+val a=10
+val a=20
+a=30
+var a=20
+a=30
+val a=20
+val b=a+10
+val name: String = "Inceptez!"
+name = "Inceptez Technologies"
+println(name)
+var fullname: String = " Inceptez! "
+var fullname=1.5
+var a=11111111111111111111111111111111111
+var a=11111111111111111111111111111111111.toLong
+var a=11111111111111111
+var a=111111111111
+var a=111111111111.toLong
+var a=1111111.toLong
+var a=1111111
+var a:Long=1111111
+val a=10
+val num1:Short = 10
+val num1:Short = 10.toLong
+val num1:Short = 10.toString
+val num1 = 10.toString
+val num1 = 10.toLong
+val num1 = 10
+val num1 = 10.toString
+val num2=num1+20
+val num2=num1.toInt+20
+val av4:AnyVal = ()
+val av4:AnyVal = "hello"
+val av4:AnyVal = hello
+val av4:AnyVal = 'o'
+val av4:AnyVal = 'hello'
+val av4:AnyVal = 'o'
+val av4:Any = "hello"
+val av4:Any = 'o'
+var salary:Int = 20000
+    salary = bonus + 1000;
+val bonus=100;
+    salary = bonus + 1000;
+abstract class  banktypetrait1
+{
+  def banktype(btype:String):Int= btype match
+  {
+    case "Investment" => 10
+    case "Retail" => 20
+    case _ => 30
+ 
+:print
+:println
+:paste
+abstract class  banktypetrait1
+{
+  def banktype(btype:String):Int= btype match
+  {
+    case "Investment" => 10
+    case "Retail" => 20
+    case _ => 30
+ 
+abstract class cardtrait1(inputargispossible:Int)
+{
+  val argassign=inputargispossible;
+  def cardtype(ctype:String,withdrawlimit:Long):Int;
+}
+:paste
+abstract class cardtrait1(inputargispossible:Int)
+{
+  val argassign=inputargispossible;
+  def cardtype(ctype:String,withdrawlimit:Long):Int;
+}
+cardtrait1
+trait banktypetrait
+{
+  def banktype(btype:String):Int= btype match
+  {
+    case "Investment" => 10
+    case "Retail" => 20
+    case _ => 30
+  }
+:paste
+trait banktypetrait
+{
+  def banktype(btype:String):Int= btype match
+  {
+    case "Investment" => 10
+    case "Retail" => 20
+    case _ => 30
+  }
+:paste
+trait banktypetrait
+{
+  def banktype(btype:String):Int= btype match
+  {
+    case "Investment" => 10
+    case "Retail" => 20
+    case _ => 30
+  }
+}
+banktypetrait
+val a=10
+a=20
+val a=20
+var a=10
+object a {
+pritln("hello")
+}
+object a {
+println("hello")
+}
+a
+object a {
+val a=10;
+}
+println(a.a);
+var b = 20.0
+b=30.1
+b="Irfan"
+var name = "Inceptez"
+name = "Inceptez Technologies Pvt Ltd"
+println(name)
+name = 25
+val a=10
+val b =20
+if (a > b)
+println("a is greater " + a)
+if (a > b)
+println("a is greater " + a) else
+println("b is greater " + b)
+:paste
+if (a > b)
+println("a is greater " + a) 
+else
+println("b is greater " + b)
+:paste
+if (a > b)
+println("a is greater " )
+println(a)
+else
+println("b is greater " + b)
+if (a > b)
+{
+println("a is greater " )
+println(a)
+}
+else
+println("b is greater " + b)
+:paste
+if (a > b)
+{
+println("a is greater " )
+println(a)
+}
+else
+println("b is greater " + b)
+val n=10;
+    for(i <- 1 to n)
+    {
+      println("For Loop : " + i)
+    }
+var j = 20;
+    do
+    {
+       
+      println("Do while : " + j)
+     j = j + 1
+    
+    }
+    
+    while(j <= 10)
+val y=10
+y match
+{
+case 10 => {println(10+10)}
+case 20 => {println(20+20)}
+}
+val y =20
+     | case 10 => {println(10+10)}
+y match
+{
+case 10 => {println(10+10)}
+case 20 => {println(20+20)}
+}
+val y=30
+y match
+{
+case 10 => {println(10+10)}
+case 20|30 => {println(20+20)}
+case _
+}
+y match
+{
+case 10 => {println(10+10)}
+case 20|30 => {println(20+20)}
+case _ => {println("no case matched")}
+}
+val y =50
+y match
+{
+case 10 => {println(10+10)}
+case 20|30 => {println(20+20)}
+case _ => {println("no case matched")}
+}
+val y=10
+y match
+{
+case 10 => {println(10+10)}
+case 20|10 => {println(20+20)}
+case _ => {println("no case matched")}
+}
+def metname(a:Int):Int=
+{
+return a+20
+}
+println(metname(100))
+def testmatch(x:Int) = x match 
+   { 
+       // if value of x is 0, 
+       // this case will be executed 
+       case 0 => "Hello, Techies"
+         
+       // if value of x is 1,  
+       // this case will be executed 
+       case 1 => "Are you learning Scala?"
+         
+       // if x doesnt match any sequence, 
+       // then this case will be executed 
+       case _ => "Good Luck!!"
+   }
+testmatch(1)
+testmatch(0)
+testmatch(2)
+val a=sc.textFile("file:///home/hduser/cust")
+val b=sc.textFile("file:///home/hduser/cust")
+val a1=a.map(x=>x.split(",")).map(x=>(x(0),x(1),x(2)))
+a1.collect
+val a1=a.map(x=>x.split(",")).map(x=>(x(0),x(1),x(2))).map(x=>(x._1,x._3))
+a1.collect
+val b1 = b.map(x=>x.split(",")).map(x=>x(0),x(1),x(2)).map(x=>(x._3,x._2))
+val b1 = b.map(x=>x.split(",")).map(x=>(x(0),x(1),x(2)).map(x=>(x._3,x._2))
+val b1 = b.map(x=>x.split(",")).map(x=>(x(0),x(1),x(2))).map(x=>(x._3,x._2))
+b1.foreach(println)
+val b=sc.textFile("file:///home/hduser/custdetail")
+val b1 = b.map(x=>x.split(",")).map(x=>(x(0),x(1),x(2))).map(x=>(x._3,x._2))
+b1.foreach(println)
+val c1=a1.join(b1)
+c1.collect
+c1.foreach(println)
+val c1=a1.join(b1).toDF()
+c1.select("_1","_2").show(10)
+c1.select("_1","_2(0)").show(10)
+c1.createOrReplaceTempView("t1")
+sql("select * from t1");
+sql("select * from t1").show;
+:history 10
+val c1=a1.join(b1)
+val c1=a1.join(b1).map(x=>(x(0)))
+val c1=a1.join(b1).map(x=>(x._1))
+val c1=a1.join(b1).map(x=>(x._1,x._2._1,x._2._2))
+c1.collect
+def charlen(a:String):String=
+  {
+    return(a.trim().toUpperCase())
+  
+}
+val rdd = sc.textFile("file:/home/hduser/hive/data/txns",10)
+   val rddtrimupper=rdd.map(x=>x.split(",")).map(x=>(x(0),x(1),x(2),charlen(x(3))))
+   rddtrimupper.take(10)
+   rdd.take(5)
+val rdd = sc.textFile("file:/home/hduser/hive/data/txns",10)
+   val rddtrimupper=rdd.map(x=>x.split(",")).map(x=>(x(0),x(1),x(2),x(3),charlen(x(4))))
+   rddtrimupper.take(10)
+   rdd.take(5)
+rddtrimupper.take(10).foreach(println)
+val a=Array(1,2,3)
+a.map(x=>x*2)
+val a = Array((1,2,3),(4,5,6),(10,20))
+a.flatten
+a.flatten(x=>x)
+val a = Array(Array(1,2,3),Array(4,5,6),Array(10,20))
+a.flatten
+val a = ((1,2,3),(4,5,6),(10,20))
+a.flatten
+trait cardtrait
+{
+  def cardtype(ctype:String,withdrawlimit:Long):Int;
+}
+:paste
+trait cardtrait
+{
+  def cardtype(ctype:String,withdrawlimit:Long):Int;
+}
+cardtrait
+private def a={println("a")}
+private val a=10;
+abstract class c1 {
+val a = 100;
+}
+class c2 extends c1 {
+val b = 200;
+}
+object o1 extends c1 {
+def main(args:Array[Sring]) 
+{
+println(c1.a);
+}}
+object o1 extends c1 {
+def main(args:Array[Sring]) 
+{
+println(a);
+}}
+object o1 extends c1 {
+def main(args:Array[String])
+{ println(a); }}
+o1.main(Array("hello"))
+def a(x:Any):Any=
+{
+return(x+10)
+}
+val x="Hi"
+def a(x:Any):Any=
+{ return(x+x) }
+val x:Any="Ji"
+def a(y:Any):Any={ return(y+x)}
+def a(y:Any):String={ return(y+x)}
+def a(y:Any):Any={ return y}
+a(1)
+a("hi")
+trait t1  { val a = 100 }
+trait t2  { val b = 100 }
+object o1 extends t1 {
+val b=200;
+println(b);
+}
+object o1 extends t1 {
+val a=200;
+println(b);
+}
+object o1 extends t1 {
+val a=200;
+println(a);
+}
+object o1 extends t1 {
+override val a=200;
+println(a);
+}
+:paste
+def a(x:Int)={x+10}
+:paste
+def a(x:Int)={x+10}
+def a={2+10}
+a
+a(10)
+val x=Array(1,2,3)
+x.map(x=>x+2)
+x.filter(x=>x==2)
+val x=Array(List(1,2,3),List(4,5,6))
+x(0)(1)
+x(1)(1)
+x.flatmap
+val x=Array((1,2,3),(4,5,6))
+x.flatmap
+val x=Array(1,2,3,4)
+for (i <- x)
+{
+println(i+2)
+}
+x.map(x=>x+2).foreach(println)
+for (i <- x)
+{}
+var y=0
+for (i <- x)
+{
+y=y+i;
+}
+println(y)
+x.reduce
+x.reduce(_+_)
+x.reduce(_-_)
+abstract class a{
+var x=10;
+}
+object obj extends a {
+println(x);
+}
+obj
+object obj extends a {
+val x=100;
+}
+object obj extends a {
+x=100;
+println(x);
+}
+obj
+abstract class a(r:Int){
+var y=r;
+}
+object obj extends a(200) {
+println(y);
+}
+obj
+var m = Map("Mani" -> 10000,"Karthik" -> 20000)
+m += ("Raj" -> 30000)
+m("Raj") = 40000
+m
+m -= ("Mani")
+m
+var immutablemap = scala.collection.immutable.Map(1 -> "Alto",2 -> "Swift")
+immutablemap -= (2)
+immutablemap(1)="Alto k10"
+val immutablemap = scala.collection.immutable.Map(1 -> "Alto",2 -> "Swift")
+immutablemap -= (2)
+m.keys
+var mutablemap = scala.collection.mutable.Map(1 -> "Alto",2 -> "Swift")
+mutablemap(1)
+mutablemap(1)="Alto k10"
+mutablemap(1)
+scala.collection.mutable.Map
+var mutablegames = scala.collection.mutable.Set("Cricket","VollyBall","BaseBall","Hockey")
+mutablegames.add("Chess");
+mutablegames
+mutablegames.add("Chess");
+mutablegames.remove("Cricket");
+var games = scala.collection.immutable.Set("Cricket","Football","Hockey","Golf","Cricket","Football")
+games.add("Tennis");
+games += "Tennis"
+games
+println(games);
+     println(games.head)             // Returns first element present in the set  
+     println(games.tail)         // Returns all elements except first element.  
+     println(games.i
+sEmpty)
+println(games.union(mutablegames))
+println(games.diff(mutablegames))
+val salaries = Array(20000, 70000, 40000)
+val normalmethod = salaries.map (a=>(a*1.5))
+def bonus(a:Int):Double = ((a*1.5))
+val higherordermethod = salaries.map(bonus)
+higherordermethod(0)
+val tup=(1, "Sam", "1, castle point blvd, nj")
+tup._2
+case class emp(id: Int, name: String, address: String)
+val tup=emp(1, "Sam", "1, castle point blvd, nj")
+tup._1
+tup.name
+tup.id
+val tup=emp("1", "Sam", "1, castle point blvd, nj")
+case class emp(id: String, name: String, address: String)
+val tup=emp(1.toString, "Sam", "1, castle point blvd, nj")
+val sc1=new org.apache.spark.SparkContext();
+class c1 {
+val x=10;
+}
+c1
+println(c1.x)
+val a = new c1;
+a.x
+val b = new c1;
+object obj {
+val x=100;
+}
+c1
+obj
+class c2{
+}
+class c3{}
+object obj1{
+val a= new c3;
+}
+obj1
+c3
+c2
+obj1.a
+def poly(a:Any):Any =
+{
+println(a);
+}
+poly("irfan")
+poly(100)
+def a()
+{}
+object bankclassobj
+{
+  
+  def main(args:Array[String])
+  {
+}
+:paste
+object bankclassobj
+{
+  
+  def main(args:Array[String])
+ {
+println("argument value is " + args(0));
+}
+:history 10
+bankclassobj.main(Array("argument passed"));
+val a=Array(10,20,30,40)
+for (i <- a ) {
+println(i+5)
+}
+a.map(x=> x+5)
+a.map(x=> x+5).foreach(println)
+a.map(x=> x+5)
+var sum=0;
+for (i <- a ) {
+sum = sum + i;
+}
+println(sum);
+a.reduce(_+_)
+val lst = List(1,2,3,4,5,6,7,8,9,10)
+lst.filter((i: Int) => i % 2 == 0)
+lst.filter(i => i % 2 == 0)
+val lst1 = List(List(1,2,3,4),List(5,6),List(7,8)).flatten
+val rdd1=sc.parallelize(Array(1,2,3,4));
+val rdd1=sc.parallelize(Array(1,2,3,4),2);
+rdd1.glom.collect
+res82.reduce(_+_)
+rdd1.reduce(_+_)
+val x=Array(1,2,3,4)
+x.reduce(_+_)
+val filterlines = lines.filter{ l => l.length > 37}
+val lines = sc.textFile("file:/home/hduser/sparkdata/empdata.txt")
+val filterlines = lines.filter{ l => l.length > 37}
+filterlines.collect
+val lines = sc.textFile("file:/home/hduser/sparkdata/empdata.txt")
+lines.map(x=>(x(0),x(1)))
+lines.map(x=>(x(0).toString,x(1)))
+val filterlines = lines.filter{ 
+val a=x.split(",");
+a=> a.length > 37}
+val filterlines = lines.filter{ x=>
+val a=x.split(",");
+a.length > 37}
+val lines = sc.textFile("file:/home/hduser/sparkdata/empdata.txt")
+val filterlines = lines.filter{ x=>
+val a=x.split(",");
+a.length > 37}
+filterlines.foreach(println)
+val filterlines = lines.filter{ x=>
+val a=x.split(",").length > 3}
+val filterlines = lines.filter{ x=>
+val a=x.split(",");
+val b=a.map(x=>(x(0),x(1)))
+b.length == 2}
+filterlines.foreach(println)
+lines.collect
+case class emp(name:String,city:String)
+val x=lines.map(x=> {
+val a=x.split(",");
+val b=emp(a(0),a(1));
+}
+)
+x.collect
+lines.map(x=>(x(0),x(1))
+)
+res5.collect
+lines
+lines.collect
+lines.map(x=>x.split(",")).map(x=>(x(0),x(1)))
+res9.collect
+val x=lines.map(x=> {
+val a=x.split(",");
+emp(a(0),a(1));
+}
+)
+x.collct
+x.collect
+x.toDF
+res13.createOrReplaceTempView("a")
+sql("select count(1) from a")
+sql("select count(1) from a").show
+sql("select count(1) from a where city='Chennai'").show
+sql("select count(1) from a where city like 'Che%'").show
+val lines = sc.textFile("file:/home/hduser/sparkdata/empdata.txt")
+val lengths = lines map { l => l.length}
+val lengths = {lines.map(x=>x.split(",")).
+}
+val lengths = {lines.map(x=>x.split(","))}
+val chennaiLines = lines.map(x=>x.split(",")).filter(l => l(1)
+.toUpperCase=="CHENNAI" )
+val chennaiLines = lines.map(x=>x.split(",")).filter(l => l(1).toLowerCase=="CHENNAI" )
+lines.map(_.split(",")).map(_.(_(0))
+lines.map(_.split(",")).map(x=>(x(0),x(1)))
+lines.map(_.split(",")).map(x=>(x(0),x(1))).collectAsMap
+res20("irfan")
+val fmrdd = lines.flatMap( l => l.split(",")).map(x=>x.toString.toUpperCase)
+val fmrdd1 = lines.flatMap( l => l.split(",")).map(x=>x.toString.toUpperCase)
+val x=fmrdd1.zip(fmrdd);
+x.foreach(println)
+fmrdd1.collect
+fmrdd.collect
+val xx=fmrdd1.zip(fmrdd);
+xx.foreach(println)
+xx.collect
+xx.saveAsTextFile("/user/hduser/hdfsfile");
+val xx=fmrdd1.zipWithUniqueId(fmrdd);
+val xx=fmrdd1.zipWithIndex(fmrdd);
+val linesFile1 = sc.textFile("file:/home/hduser/sparkdata/empdata.txt")
+val ziplines = linesFile1.zip(linesFile1)
+ziplines.foreach(println)
+val ziplines = linesFile1.zip(linesFile1)
+case class Customer(name: String, city: String, age: Int)
+val customers = lines.map(x=>x.split(",")).map(x=>Customer(x(0), x(1), x(2).toInt))
+customers.collect
+val groupByZip = customers.groupBy { a => a.city}
+groupByZip.collect
+val groupByZip = customers.groupBy { a => a.city}.count
+val groupByZip = customers.groupBy { a => a.city}.countByKey
+val groupByZip = customers.groupBy { a => a.city}.map(x=>(x(0),x(1)))
+val groupByZip = customers.groupBy { a => a.city}.map(x=>(x(0)))
+val groupByZip = customers.groupBy { a => a.city}.countByValue
+val x=sc.textFile("file:///home/hduser/hive/data/txns")
+x.count
+val y=x.map(x=>x.split(",")).map(x=>(x(0),x(1))
+)
+val z=y.lookup("100")
+val z=y.lookup("10000")
+val z=y.lookup("00000001")
+z(1)
+z(0)
+val broadcastVar = sc.broadcast(2)
+val y=x.map(x=>x.split(",")).map(x=>(x(0),x(3))
+)
+val z=y.map(x=>(x._1,x._2+broadcastVar))
+z.collect
+val z=y.map(x=>(x._1,x._2+broadcastVar.value))
+z.collect
+val y=x.map(x=>x.split(",")).map(x=>(x(0),x(3).toInt)
+)
+val z=y.map(x=>(x._1,x._2+broadcastVar.value))
+z.collect
+val x=sc.textFile("file:///home/hduser/hive/data/txns")
+val y=x.map(x=>x.split(",")).map(x=>(x(0),x(3).toInt)
+)
+y.take(1)
+val y=x.map(x=>x.split(",")).map(x=>(x(0),x(3).toLong)
+)
+y.take(1)
+val y=x.map(x=>x.split(",")).map(x=>(x(0),x(3))).map(x=>(x._1,x._2))
+val y=x.map(x=>x.split(",")).map(x=>(x(0),x(3))).map(x=>(x._1,x._2.toDouble))
+y.take(1)
+val y=x.map(x=>x.split(",")).map(x=>(x(0),x(3).toDouble))
+y.take(1)
+val y=x.map(x=>x.split(",")).map(x=>(x(0),x(3).toLong))
+y.take(1)
+val y=x.map(x=>x.split(",")).map(x=>(x(0),x(3).toDouble))
+val z=y.map(x=>(x._1,x._2+broadcastVar.value))
+z.take(10)
+val broadcastVar = sc.broadcast(Array(1,3,4))
+broadcastVar.value(1)
+val z=y.map(x=>(x._1,x._2+broadcastVar.value(1)))
+z.take(10)
+val broadcastVar = sc.broadcast(Map(00000000-> "irfan",00000001 -> "Basith"))
+val broadcastVar = sc.broadcast(Map(4006742-> "irfan",4007024 -> "Basith"))
+val z=y.map(x=>(x._1,x._2+broadcastVar.value(4006742))
+)
+z.take(10)
+val y=x.map(x=>x.split(",")).map(x=>(x(0),x(2)))
+val z=y.map(x=>(x._1,broadcastVar.value(x._2)))
+val z=y.map(x=>(x._1,broadcastVar.value(x._2.toInt)))
+z.take(10)
+val rdd = sc.textFile("file:/home/hduser/hive/data/txns",10)
+val rddsplit=rdd.map(x=>x.split(","))
+rddkvpair.countByKey().take(10).foreach(println)
+val rddkvpair=rddsplit.map(x=>(x(2),x(3))) 
+  rddkvpair.countByKey().take(10).foreach(println)
+println("City wise count : ")
+  val rddkvpair=rddsplit.map(x=>(x(6),x(3))) 
+  rddkvpair.countByKey().take(10).foreach(println)
+  
+  println("City wise sum of amount : ")
+  rddkvpair.reduceByKey(_+_).take(10).foreach(println)
+  rddkvpair.countByKey().take(10).foreach(println)
+rddkvpair
+rddkvpair.take
+rddkvpair.take(2)
+val rddkvpair=rddsplit.map(x=>(x(6),x(3).toDouble)) 
+  rddkvpair.countByKey().take(10).foreach(println)
+  
+  println("City wise sum of amount : ")
+  rddkvpair.reduceByKey(_+_).take(10).foreach(println)
+rddkvpair.reduceByKey((a,b)=> (if (a > b) a else b)).take(10).foreach(println)
+rddkvpair.reduceByKey((a,b)=> (if (a < b) a else b)).take(10).foreach(println)
+:history
+:history 200
+val broadcastVar = sc.broadcast(Array(1,3,4))
+val broadcastrdd=rddsplit.map(x=>(x._1,x._2+broadcastVar.value(1)))
+val broadcastrdd=rddsplit.map(x=>(x(0),x(3).toDouble+broadcastVar.value(1)))
+broadcastrdd.take(4)
+broadcastrdd.take(4).mkString("|")
+val broadcastrdd=rddsplit.map(x=>(x(0),x(3).toDouble+broadcastVar.value(1))).map(x=>x.mkString("|"));
+val broadcastrdd=rddsplit.map(x=>(x(0),x(3).toDouble+broadcastVar.value(1))).map(x=>(concat(x._1,x._2)));
+val broadcastrdd=rddsplit.map(x=>(x(0),x(3).toDouble+broadcastVar.value(1))).map(x=>(concat(x._1,x._2.toString)));
+val broadcastrdd=rddsplit.map(x=>(x(0),x(3).toDouble+broadcastVar.value(1))).map(x=>(x._1,x._2));
+broadcastrdd.foreach(println)
+val broadcastrdd=rddsplit.map(x=>(x(0),x(3).toDouble+broadcastVar.value(1))).map(x=>x.mkString("|"));
+val broadcastrdd=rddsplit.map(x=>(x(0),x(3).toDouble+broadcastVar.value(1))).map(x=>(x._1,x._2).toList.mkString("|"));
+val broadcastrdd=rddsplit.map(x=>(x(0),x(3).toDouble+broadcastVar.value(1))).map(x=>(x._1.toString,x._2.toString).toList.mkString("|"));
+val a=List(List((1,"a"),(2,"b")))
+a.map(x=>x.split(",")).map(x=>(x(0),"|",x(1)))
+val a=Array(Array((1,"a"),(2,"b")))
+a.map(x=>x.split(",")).map(x=>(x(0),"|",x(1)))
+a.map(x=>x.split(","))
+lines.take(5)
+lines.map(x=>x.split(","))
+val a=lines.map(x=>x.split(","))
+a.take(5)
+val a=lines.map(x=>x.split(",")).map(x=>(x(0),"|",x(1)))
+a.take(5)
+val a=lines.map(x=>x.split(",")).map(x=>(x(0),"hello",x(1)))
+a.take(5)
+val a=lines.map(x=>x.split(",")).map(x=>(x(0),"hello",x(4)))
+a.take(5)
+val a=lines.map(x=>x.split(",")).map(x=>(x(0),"hello",x(4).toInt))
+a.take(5)
+val a=lines.map(x=>x.split(",")).map(x=>(x(0),"hello",x(4).toLong))
+a.take(5)
+val a=lines.map(x=>x.split(",")).map(x=>(x(0),"hello",x(4).toAny))
+val a=lines.map(x=>x.split(",")).map(x=>(x(0),"hello",x(4)))
+a.take(5)
+val a=lines.map(x=>x.split(",")).map(x=>(x(0),x(4)).mkString("|"))
+val a=lines.map(x=>x.split(",")).map(x=>(x(0),x(4)))
+a.collect
+a.mkString("|")
+a.take(5).mkString("|")
+a.take(5).map(x=>x.mkString("|"))
+a.take
+a.take(4)
+a.take(5).foreach(println)
+a.take(5).foreach(mkstring("|"))
+a.take(5).foreach(mkString("|"))
+a.take(5).mkString("|")
+a.take(5).mkString("|").foreach(println)
+val a=lines.map(x=>x.split(",")).map(x=>(x(0),x(4))).toArray
+val a=lines.map(x=>x.split(",")).map(x=>(x(0),x(4))).map(x=>x.mkString("|"));
+val a=lines.map(x=>x.split(",")).map(x=>(x(0),x(4))).map(x=>(x._1,x._2));
+a.take(5)
+val a=lines.map(x=>x.split(",")).map(x=>(x(0),x(4)))
+a.take(5)
+val a=lines.map(x=>x.split(",")).map(x=>(x(0),x(4))).map(x=>(x._1,x._2));
+a.take(5).mkString("|")
+val a=lines.map(x=>x.split(",")).map(x=>(x(0),x(4))).map(x=>x.productIterator.mkString("|"));
+a.take(5)
+:quit
+val hadooplines= sc.textFile("hdfs:/user/hduser/empdata.txt")
+val hadooplines= sc.textFile("hdfs:/user/hduser/empdata.txt",3)
+val lines = sc.textFile("file:/home/hduser/sparkdata/empdata.txt")
+val alllines = sc.textFile("file:/home/hduser/sparkdata/*data.txt")
+lines.getNumPartitions
+hadooplines.getNumPartitions
+val alllines = sc.textFile("file:/home/hduser/sparkdata/*data.txtfdsfdsfdsfdsfdsdsf")
+alllines.take(4)
+val alllines = sc.textFile("file:/home/hduser/sparkdata/*data.txt")
+alllines.getNumPartitions
+alllines.take(3)
+alllines.take(3).foreach(println)
+import org.apache.spark.sql.SparkSession
+val spark = SparkSession.builder().getOrCreate()
+val rd = sc.parallelize(Array(1,2,3,4,5))
+val a= Array(1,2,3,4,5)
+val filterlines = lines.filter{ l => l.length > 37}
+filterlines.foreach(println)
+filterlines.cache
+filterlines.count
+filterlines.take(10)
+filterlines.unpersist
+filterlines.unpersist()
+filterlines.take(10)
+filterlines.count
+val lines = sc.textFile("file:/home/hduser/sparkdata/empdata.txt")
+lines.map(x=>x.length)
+res17.collect
+res17.foreach(println)
+val x = lines.map(x=>x.split(","))
+lines
+val x = lines.map(x=>x.split(",")).map(x=>x.length)
+x.collect
+val x = alllines.map(x=>x.split(",")).map(x=>x.length)
+x.collect
+val x = lines.map(x=>x.split(",")).filter(x=>x(1).toUpperCase == "CHENNAI")
+x.collect
+val x4 = lines.map(x=>x.split(",")).filter(x=>x.length==4")
+val x4 = lines.map(x=>x.split(",")).filter(x=>x.length==4)
+x4.collect
+val x4 = alllines.map(x=>x.split(",")).filter(x=>x.length==4)
+x4.collect
+val x4 = alllines.map(x=>x.split(",")).filter(x=>x.length==5)
+x4.collect
+val fmrdd = lines.flatMap( l => l.split(","))
+fmrrd.foreach(println)
+fmrdd.foreach(println)
+val fmrdd = lines.flatMap( l => l.split(",")).map(x=>x.toString.toUpperCase)
+val fmrdd = lines.flatMap( l => l.split(",")).map(x=>x.toUpperCase)
+fmrdd.foreach(println)
+val fmrdd = lines.map(_.split(",")).map(x=>(x(0),x(1),x(2),x(3)))
+val fmrdd = lines.map(_.split(",")).map(x=>(x(3),x(1),x(2).toInt,x(0)))
+val fmrdd = lines.map(_.split(",")).map(x=>(x(3),"acct",x(1),x(2).toInt,x(0)))
+fmrdd.foreach(println)
+val lengths = lines.mapPartitions ( x => x.filter( l => l.length>20))
+lengths.foreach(println)
+val linesFile1 = sc.textFile("file:/home/hduser/sparkdata/empdata.txt")
+val linesFile2 = sc.textFile("file:/home/hduser/sparkdata/empdata1.txt")
+val linesFromBothFiles = linesFile1.union(linesFile2)
+linesFromBothFiles.foreach(println)
+linesFromBothFiles.distinct.foreach(println)
+val linesFile2 = sc.textFile("file:/home/hduser/sparkdata/empdata1.txt")
+val linesFromBothFiles = linesFile1.union(linesFile2)
+linesFromBothFiles.distinct.foreach(println)
+val linesFile1 = sc.textFile("file:/home/hduser/sparkdata/empdata.txt")
+val ziplines = linesFile1.zip(linesFile1)
+ziplines.foreach(println)
+val ziplines = linesFile1.zip(linesFile2)
+ziplines.foreach(println)
+case class Customer(name: String, city: String, age: Int)
+val customers = lines.map(x=>x.split(",")).map(x=>Customer(x(0), x(1), x(2).toInt))
+val customers1 = lines.map(x=>x.split(",")).map(x=>(x(0), x(1), x(2)))
+customers1.foreach(println)
+customers.foreach(println)
+val customers = lines.map(x=>x.split(",")).map(x=>Customer(x(0), x(1), x(2).toInt))
+val customers = lines.map(x=>x.split(",")).map(x=>Customer(x(0), x(1), x(2)))
+val groupByZip = customers.groupBy { a => a.city}
+groupByZip.collect
+customers.toDF
+res40.createOrReplaceTempView("custdata")
+sql("select count(1),city from custdata group by city").show(10)
+val groupByZip = customers1.groupBy { a => a(2)}
+val groupByZip = customers1.groupBy { a => a(1)}
+customers1
+val groupByZip = customers1.groupBy { a => a._2}
+groupByZip.collect
+val groupByZip = customers1.groupBy { a => a._2}.reduceByKey((x,y)=>x._3+y._3)
+val groupByZip = customers1.groupBy { a => a._2}.reduceByKey((x,y)=>x._3.toInt+y._3.toInt)
+val groupByZip = customers1.groupBy { a => a._2}.map(x=>x(1).toArray)
+val groupByZip = customers1.groupBy { a => a._2}.map(x=>(x(0),x(1))
+)
+val groupByZip = customers1.groupBy { a => a._2}.map(x=>(x(0),x(1)))
+val groupByZip = customers1.groupBy { a => a._2}.map(x=>(x(0),x(1).size))
+val groupByZip = customers1.groupBy { a => a._2}.map(x=>(x(0));
+val groupByZip = customers1.groupBy { a => a._2}.map(x=>(x(0)))
+groupByZip
+groupByZip.toArray
+groupByZip.foldByKey((x,y)=>x+y)
+groupByZip.reduceByKey((x,y)=>x+y)
+val groupByZip = customers1.groupByKey { a => a._2}
+customers1
+val custrdd=sc.textFile("file:/home/hduser/hive/data/cust");
+custrdd.count
+val custrdd=sc.textFile("file:/home/hduser/hive/data/custs");
+custrdd.count
+val txnrdd=sc.textFile("file:/home/hduser/hive/data/txns");
+txnrdd.count
+val tbl1=custrdd.map(_.split(",")).map(x=>(x(2),(x(3),x(4)))
+)
+tbl1.take(2)
+val tbl1=txnrdd.map(_.split(",")).map(x=>(x(2),(x(3),x(4)))
+)
+val tbl2=txnrdd.map(_.split(",")).map(x=>(x(0),(x(3),x(4))))
+val joinrdd=tbl1.join(tbl2)
+joinrdd.take(3)
+tbl1.take(1)
+tbl2.take(2)
+val tbl2=custrdd.map(_.split(",")).map(x=>(x(0),(x(3),x(4))))
+tbl2.take(2)
+val joinrdd=tbl1.join(tbl2)
+joinrdd.take(2)
+val tbl2=custrdd.map(_.split(",")).map(x=>(x(0),(x(2),x(3))))
+joinrdd.take(2)
+val tbl2=txnrdd.map(_.split(",")).map(x=>(x(0),(x(2),x(3))))
+tbl2.take(2)
+val tbl2=txnrdd.map(_.split(",")).map(x=>(x(2),(x(0),x(3))))
+val joinrdd=tbl1.join(tbl2)
+joinrdd.take(2)
+val flatrdd=joinrdd.map(x=>(x(0),x(1)._1,x(1)._2,x(2)._1,x(2)._2))
+val flatrdd=joinrdd.map(x=>(x(0),x(1)._1,x(1)._2,x(2)._1,x(2)._2))val flatrdd=joinrdd.map(x=>(x(0),x(1)))
+val flatrdd=joinrdd.map(x=>(x(0),x(1)))
+joinrdd
+joinrdd.map(x=>x)
+res64.take(4)
+joinrdd.map(x=>(x(0)))
+joinrdd.map(x=>(x._1))
+val flatrdd=joinrdd.map(x=>(x._1,x._2._1,x._2._2,x._3._1,x._3._2))
+val flatrdd=joinrdd.map(x=>(x._1,x._2._1,x._2._2))
+flatrdd.take(2)
+joinrdd.map(x=>(x._1,x._2._1,x._2._2))
+joinrdd.map(x=>(x._1,x._2._1._1,x._2._2))
+joinrdd.map(x=>(x._1,x._2._1._1,x._1._2._2))
+joinrdd.map(x=>(x._1,x._2._1._1,x._2._2._2))
+joinmap.take(1)
+joinrdd.take(1)
+val pairRdd1 = sc.parallelize(List(("a", 1), ("b",2), ("c",3)))
+val pairRdd2 = sc.parallelize(List(("b", "second"), ("c","third"), ("d","fourth")))
+val joinRdd = pairRdd1.join(pairRdd2)
+joinRdd.take(2)
+joinRdd.map(x=>(x(0))).take(1)
+joinRdd.map(x=>(x._1)).take(1)
+joinRdd.map(x=>(x._1)).take(2)
+joinRdd.map(x=>(x._1,x._2._1)).take(2)
+joinRdd.map(x=>(x._1,x._2._1,x._2._2)).take(2)
+lines.getNumPartitions
+lines.coalesce(1)
+res82.getNumPartitions
+lines.coalesce(4)
+res84.getNumPartitions
+val numbers = sc.parallelize((1 to 100).toList,5)
+numbers.getNumPartitions
+numbers.glom.collect
+val numbersWithTwoPartition = numbers.coalesce(2)
+numbersWithTwoPartition.glom.collect
+val numbersWithTwoPartition = numbers.coalesce(2)
+numbersWithTwoPartition.glom.collect
+val numbersWithTwoPartition = numbers.coalesce(3)
+numbersWithTwoPartition.glom.collect
+val numbersWithTwoPartition = numbers.coalesce(2)
+numbers.getNumPartitionsr
+numbers.getNumPartitions
+val numbersWithFourPartition = numbers.repartition(6)
+numbersWithFourPartition.partitions.size
+numbersWithFourPartition.glom().collect
+val alllines = sc.textFile("file:/home/hduser/sparkdata/*data.txt")
+alllines.getNumPartitions
+customers
+customers.getNumPartitions
+val sortedByAge = customers sortBy( p => p.age, true)
+sortedByAge.foreach(println)
+val sortedByAge = customers.coalesce(1).sortBy( p => p.age, true)
+sortedByAge.foreach(println)
+val sortedByAge = customers.coalesce(1).sortBy( p => p.age, false)
+sortedByAge.foreach(println)
+val txns=sc.textFile("file:/home/hduser/hive/data/txns")
+txns.count
+txns.take(1)
+val x=txns.map(x=>(x(2),(x(0),x(1),x(3))))
+x.take(10)
+val x=txns.map(_.split(",")).map(x=>(x(2),(x(0),x(1),x(3))))
+val x=txns.map(_.split(",")).map(x=>(x(2),(x(0),x(1),x(3).toDouble)))
+val y=txns.map(_.split(",")).map(x=>(x(2),(x(0),x(1),x(3).toDouble)))
+y.take(3)
+y.take(3).foreach(println)
+val joinrdd=x.join(y)
+joinrdd.take(10).foreach(println)
+joinrdd
+val pairRdd1 = sc.parallelize(List(("a", 1), ("b",2), ("c",3)))
+val pairRdd2 = sc.parallelize(List(("b", "second"), ("c","third"), ("d","fourth")))
+val joinRdd = pairRdd1.join(pairRdd2)
+joinRdd.foreach(println)
+joinRdd.map(x=>(x._1,x._2._1,x._2._2)).take(10).foreach(println)
+def highsal(p1: Int, p2: Int,p3:Int): Int = {
+val salbonus = p1 + p2
+if (salbonus > p3)
+{
+println("higher value is salary and bonus") ;
+return salbonus;
+}
+else
+{println("higher value is nettsal");
+return p3
+}
+highsal(10000,2000,11000)
+highsal(10000,2000,13000)
+val x = 10;
+x + 20
+{
+val x = 10;
+x + 20
+}
+println ({
+val x = 10;
+x + 20
+})
+def add4(a:Int,b:Int)  =
+tln("add4 Return datatype is optional")
+tln(x)
+ x
+:paste
+def add4(a:Int,b:Int)  =
+tln("add4 Return datatype is optional")
+tln(x)
+ x
+:paste
+def add4(a:Int,b:Int)  =
+{
+println("add4 Return datatype is optional")
+val x  = a.toFloat/b.toFloat;
+println(x)
+//return x
+x
+}
+add4(10,3)
+val x:Float=10
+val rdd=sc.textFile("file:///home/hduser/courses.log");
+val rdd=sc.textFile("file:///home/hduser/courses.log",3);
+rdd.getNumPartitions
+val rdd=sc.textFile("file:///home/hduser/courses.log");
+rdd.getNumPartitions
+def add6 (a:Int):Int = 
+tln("add6 Function overloading")
+ a + 10
+def add6 (a:Int):Int = 
+{
+println("add6 Function overloading")
+return a + 10
+}
+:paste
+def add6 (a:Int):Int = 
+{
+println("add6 Function overloading")
+return a + 10
+} 
+g  
+def add6(a:String):String = 
+{
+println("add6 Function Type overloading")
+return "Hello " + a;
+}
+:paste
+def add6 (a:Int):Int = 
+{
+println("add6 Function overloading")
+return a + 10
+} 
+g  
+def add6(a:String):String = 
+{
+println("add6 Function Type overloading")
+return "Hello " + a;
+}
+:paste
+def add6 (a:Int):Int = 
+{
+println("add6 Function overloading")
+return a + 10
+}
+def add6(a:String):String = 
+{
+println("add6 Function Type overloading")
+return "Hello " + a;
+}
+add6(20)
+add6("Irfan")
+:paste
+def add6 (a:Int):Int = 
+{
+println("add6 Function overloading")
+return a + 10
+}
+y):Any = 
+{
+println("add6 Function overloading")
+return a + a.toString()
+} 
+:paste
+def add6 (a:Int):Int = 
+{
+println("add6 Function overloading")
+return a + 10
+}
+def add6 (a:Any):Any = 
+{
+println("add6 Function overloading with any")
+return a + a.toString()
+} 
+add6(100)
+add6("irfan")
+def add7(a:Int=30,b:Int=10) = 
+{
+println("add7 Example for Default Arguments")
+println(a + b)
+}
+add7();
+add7(a=100);
+add7(b=100);
+add7(100);
+add7(b=100);
+:paste
+def add8(a:Int=30,b:Int=10) = 
+{
+println("add7 Example for Default Arguments")
+println(a + b)
+}
+def add8 = 
+{
+println("add8 with no arguments")
+println(100 + 50)
+}
+add();
+add8()
+add8
+val a=10;
+10+20
+a+20
+a+30
+val b=20
+val c=a+b
+val c=(a:Int,b:Int)=>a+b
+c(10,200
+)
+val x =1
+x match 
+   { 
+       // if value of x is 0, 
+       // this case will be executed 
+       case 0 => "Hello, Techies"
+         
+       // if value of x is 1,  
+       // this case will be executed 
+       case 1 => "Are you learning Scala?"
+         
+       // if x doesnt match any sequence, 
+       // then this case will be executed 
+       case _ => "Good Luck!!"
+   }
+def testcaseconditional(x:Int) = x match 
+   { 
+   
+       // if value of x is 0, 
+       // this case will be executed 
+       case i if (x == 0)  => {if (a == b) {println(a)}}
+         
+       // if value of x is 1,  
+       // this case will be executed 
+       case j if x > 0 & x < 10 => {if (a != b) {println(b)}}
+         
+       // if x doesnt match any sequence, 
+       // then this case will be executed 
+       case _ => "Good Luck!!"
+   }
+testcaseconditional(0)
+val a=100
+val b=100
+testcaseconditional(0)
+def testcaseconditional(x:Int) = x match 
+   { 
+   
+       // if value of x is 0, 
+       // this case will be executed 
+       case i if (x == 0)  => {if (a == b) {println(a)}}
+         
+       // if value of x is 1,  
+       // this case will be executed 
+       case j if x > 0 & x < 10 => {if (a != b) {println(b)}}
+         
+       // if x doesnt match any sequence, 
+       // then this case will be executed 
+       case _ => "Good Luck!!"
+   }
+   
+   }
+:paste
+def testcaseconditional(x:Int) = x match 
+   { 
+   
+       // if value of x is 0, 
+       // this case will be executed 
+       case i if (x == 0)  => {if (a == b) {println(a)}}
+         
+       // if value of x is 1,  
+       // this case will be executed 
+       case j if x > 0 & x < 10 => {if (a != b) {println(b)}}
+         
+       // if x doesnt match any sequence, 
+       // then this case will be executed 
+       case _ => "Good Luck!!"
+   }
+   
+   }
+def testcaseconditional(x:Int) = x match 
+   { 
+   
+       // if value of x is 0, 
+       // this case will be executed 
+       case i if (x == 0)  => {if (a == b) {println(a)}}
+         
+       // if value of x is 1,  
+       // this case will be executed 
+       case j if x > 0 & x < 10 => {if (a != b) {println(b)}}
+         
+       // if x doesnt match any sequence, 
+       // then this case will be executed 
+       case _ => "Good Luck!!"
+   }
+println(testcaseconditional(0))
+println(testcaseconditional(4))
+val b=200
+println(testcaseconditional(4))
+val a=100
+println(testcaseconditional(4))
+def testcaseconditional(x:Int) = x match 
+   { 
+   
+       // if value of x is 0, 
+       // this case will be executed 
+       case i if (x == 0)  => {if (a == b) {println(a)}}
+         
+       // if value of x is 1,  
+       // this case will be executed 
+       case j if x > 0 & x < 10 => {if (a != b) {println(b)}}
+         
+       // if x doesnt match any sequence, 
+       // then this case will be executed 
+       case _ => "Good Luck!!"
+   }
+println(testcaseconditional(4))
+val a=Array(100,200);
+a(1)
+a(2)
+100/0
+object obj {
+println("hello");
+}
+obj
+val a:AnyRef="obj$@12891cd4"
+a
+val a:obj ="obj$@12891cd4"
+val a ="obj$@12891cd4"
+a
+val a ="obj$@12891cd4"
+a
+println(res153)
+10+20
+
+;
+}
+var s2 = Seq(10,20,30,40,50)
+s2
+s2(4) =40
+println("This shows Seq is mutable " + s2(4))
+val ar = Array[Float](5);
+       println("result of Array[Int](5) is : " + ar(0))
+Array
+val ar2= range(2,15,2)
+val ar2= Array.range(2,15,2)
+import Array._
+val ar2= range(2,15,2)
+val ar3 = range(15,2,-2)
+      println("Second element o
+ar3(1)
+ar1.length
+val ar1 = Array(1,2,3,4,5)
+ar1.length
+ar1.reduce(_+_)
+ar1.reduce((x,y)=>x+y)
+ar1.isEmpty
+ar1.sorted
+ar1(2)=10
+ar1
+ar1(5)=10
+ar1.head
+ar1.tail
+ar1.reverse.head
+val s=Seq(1,2,3,4)
+val s=Seq(1,2,3,4).toArray
+val s=Seq(1,2,3,4)
+s(2)=100
+val s=Seq(1,2,3,4).toArray
+s(2)=100
+var list = List(1,8,5,6,9,58,23,15)
+list(0)
+val lst = List(10,20,30,40)
+var list3 = list ++ lst
+list3
+list(12)=10000
+val lst=list ++ lst
+val lst1=list ++ lst
+var list4 = list ::: lst 
+            
+      println(list3)
+      println(list4)
+      println(list.contains(2))
+      
+      println(list4.head)
+      list4.tail.foreach(println)
+      println(list4.length)
+      println(list4.isEmpty)
+      list4.sorted.foreach(println)
+      list4.reverse.foreach(println)
+val emp = (101,"Karthik",200.00)
+emp._2
+val emp1 = (101,"Karthik",200.00,("New Street","Chennai","TN"))
+emp1._3
+emp1._4._2
+val emp1 = (101,"Karthik",200.00,Array("New Street","Chennai","TN"))
+emp1._4(1)
+var m = Map("Mani" -> 10000,"Karthik" -> 20000)
+m("Karthik")=30000
+m += ("Raj" -> 30000)
+m
+m -= ("Mani")
+m
+import scala.collection.mutable.Map
+m("Karthik")=30000
+var m = scala.collection.mutable.Map("Mani" -> 10000,"Karthik" -> 20000)
+m("Karthik")=30000
+m
+var immutablemap = scala.collection.immutable.Map(1 -> "Alto",2 -> "Swift")
+immutablemap -= (2)
+immutablemap
+immutablemap(1)="Alto k10"
+var mutablemap = scala.collection.mutable.Map(1 -> "Alto",2 -> "Swift")
+      mutablemap(1)="Alto k10"
+mutablemap
+m.keys
+      m.values
+      m.isEmpt
+m.values.toArray
+     var mutablegames = scala.collection.mutable.Set("Cricket","VollyBall","BaseBall","Hockey")
+mutablegames.add("Chess");
+mutablegames
+     mutablegames.add("Hockey");
+mutablegames.remove("Cricket");
+mutablegames
+var games = scala.collection.immutable.Set("Cricket","Football","Hockey","Golf","Cricket","Football")
+games.add("Tennis");
+games.remove("Cricket");
+var games = scala.collection.immutable.Set("Cricket","Football","Hockey","Golf","Cricket","Football")
+val games = scala.collection.immutable.Set("Cricket","Football","Hockey","Golf","Cricket","Football")
+games += "Tennis"
+var games = scala.collection.immutable.Set("Cricket","Football","Hockey","Golf","Cricket","Football")
+games += "Tennis"
+games
+games -= "Cricket"
+games
+println(games.union(mutablegames))
+println(games.diff(mutablegames))
+println(games.intersect(mutablegames))
+println(games.max)
+     println(games.min)
+val empdata=(1,"irfan","10,pasupathy st")
+empdata._2
+empdata._1
+case class emp(id:String,name:String,addr:String)
+val empdata=emp(1,"irfan","10,pasupathy st")
+val empdata=emp(1.toString,"irfan","10,pasupathy st")
+empdata.name
+empdata.id
+empdata.foreach(println)
+arr.foreach(println)
+val arr=Array(1,2,3)
+arr.foreach(println)
+arr.foreach(print)
+def bonus(a:Int):Double = ((a*1.5))
+val salaries = Array(20000, 70000, 40000)
+val normalmethod = salaries.map (a=>(a*1.5))
+val higherordermethod = salaries.map(bonus)
+var bonuspercent = .10
+def bonus1(i:Int) = 
+{i+(i * bonuspercent)}
+bonus1(10000)
+class cl {
+val x=100;}
+println(c1.x)
+println(cl.x)
+cl
+object obj{
+val x=200;
+}
+obj
+val objcl= new cl;
+println(obj.x);
+val objcl1= new cl;
+val objcl2= new cl;
+new cl;
+println(objcl2.x);
+cl.x
+Int.MaxValue
+;
+;
+'
+ def polymorph(a:Any):Any=
+{
+    return a
+    
+ }
+polymorph(100)
+polymorph("Irfan")
+:paste
+abstract class a1(p1:Int){
+  var x =p1;
+} 
+s1
+a1
+trait t1{
+val a=100;
+}
+t1
+t1.a;
+class x extends t1{};
+x.a;
+new x;
+res7.a;
+val a=Array(10,20,30);
+for (i <- a)
+{
+if (i > 20) {
+println(i) 
+} else
+println("hello")
+}
+a.filter(x=>x>20)
+:paste
+class classcustomfunc(a:Int) {
+  //var bonus1=1000; //encapsulation
+  //auxilary constructor
+  def this()
+  {
+    this(1000);
+  }
+ var bonus1=a;  
+  def bonus(i:Int,s:Int):Int  =
+  {
+    s+bonus1;
+  }
+}
+new classcustomfunc()
+val objalldept=new classcustomfunc()
+objalldept.bonus1
+val objitdept=new classcustomfunc(3000)
+objalldept.bonus1
+objitdept.bonus1
+val objitdept=new SparkContext();
+val objitdept=new org.apache.spark.SparkContext();
+val objitdept=new org.apache.spark.SparkContext(objalldept.bonus1);
+val objitdept=new org.apache.spark.SparkContext(org.apache.spark.SparkConf);
+val lst = List(1,2,3,4,5,6,7,8,9,10)
+for (i <- lst) {
+println(i*2)
+}
+lst.map(x=>x*2)
+lst.map(x=>x*2).foreach(println)
+for (i <- lst) {
+if (i % 2 == 0 ) {
+println(i);
+}
+lst.filter(x=> x%2 == 0)
+    lst.foreach(x => println(x))
+var x=0;
+for (i <- lst) {
+x=x+i;
+}
+println(x)
+lst.reduce((x,y)=>x+y)
+lst.reduce(_+_)
+val lst1 = List(List(1,2,3,4),List(5,6),List(7,8))
+lst1.flatten
+lst1.flatten.foreach(println)
+val rdd1=sc.parallelize(List(1,2,3,4,5))
+val rdd2=List(1,2,3,4,5);
+val rdd1=sc.parallelize(List(1,2,3,4,5),4)
+rdd1.getNumPartitions
+val rdd1=sc.parallelize(List(1,2,3,4,5))
+rdd1.getNumPartitions
+val rdd2=List(1,2,3,4,5)
+val rdd = sc.textFile("file:/home/hduser/hive/data/custs")
+    
+val rdd1 = rdd.map(x => x.split(",")).filter(x => x.length == 5).map(x => Row(x(0).toInt,x(1),x(2),x(3).toInt,x(4)))
+import org.apache.spark.sql.Row;
+val rdd1 = rdd.map(x => x.split(",")).filter(x => x.length == 5).map(x => Row(x(0).toInt,x(1),x(2),x(3).toInt,x(4)))
+rdd1.foreach(println)
+rdd1
+rdd1.show(10)
+val rdd = sc.parallelize((1 to 10000).toList)
+val filteredRdd = rdd filter { x => (x % 1000) == 0}
+val filterResult = filteredRdd.collect
+val filteredRdd = rdd filter { x => ( if (x % 1000) == 0 
+val filteredRdd = rdd filter { x => ( if (x % 1000) == 0 )
+val filteredRdd = rdd filter ( x => { if x % 1000 = 0 
+val filteredRdd = rdd filter ( x => { if (x % 1000 == 0 )
+x+100 
+else
+x-10
+}
+)
+val filteredRdd = rdd filter ( x => { if (x % 1000 == 0 )
+true
+else
+false
+}
+)
+val lst=List("a","b")
+val pairRdd = sc.parallelize(List(("a", 1), ("b", 2), ("c", 3), ("a", 11), ("b", 22), ("a",1)))
+val lst=sc.parallelize(List("a","b"))
+val values = pairRdd.lookup("a")
+val values = pairRdd.lookup(lst.map(x=>x))
+val values = pairRdd.lookup(lst.map(x=>x).collect)
+val lst=List("a","b")
+val values = pairRdd.lookup(lst.map(x=>x))
+val values = pairRdd.lookup(lst.map(x=>x(0)))
+val values = pairRdd.lookup(lst.map(x=>x.split(",")).map(x=>x))
+val values = pairRdd.lookup(lst.map(x=>x.split(",")).map(x=>x(0)))
+lst.map(x=>x.split(",")).map(x=>x(0))
+lst.map(x=>x.split(",")).map(x=>x(0)).collect
+val values = pairRdd.lookup(lst.map(x=>x.split(",")).map(x=>x(0)).collect)
+val input = sc.parallelize(List(1, 2, 3))
+val broadcastVar = sc.broadcast(2)
+val added = input.map(x => broadcastVar.value + x)
+added.foreach(println)
+val multiplied = input.map(x => broadcastVar.value * x)
+multiplied.foreach(println)
+broadcastVar.id
+broadcastVar.value
+val broadcastVar = sc.broadcast(2)
+val broadcastVar = sc.broadcast(List(1,2,3))
+val broadcastVar = sc.broadcast((1,2,3))
+val multiplied = input.map(x => broadcastVar.value * x)
+val multiplied = input.map(x => broadcastVar._1.value * x)
+val multiplied = input.map(x => broadcastVar(0).value * x)
+val broadcastVar = sc.broadcast(Array(1,2,3))
+val multiplied = input.map(x => broadcastVar(0).value * x)
+val multiplied = input.map(x => broadcastVar.value * x)
+val multiplied = input.map(x => broadcastVar.value(0) * x)
+multiplied.collect
+val multiplied = input.map(x => broadcastVar.value(2) * x)
+multiplied.collect
+val broadcastVar = sc.broadcast((1,2,3))
+val multiplied = input.map(x => broadcastVar.value._2 * x)
+multiplied.collect
+val x=sc.textFile("file:///home/hduser/cust")
+val x=sc.textFile("file:///home/hduser/cust").collect.toList
+val multiplied = input.map(x => broadcastVar.value(0) * x)
+val multiplied = input.map(x => broadcastVar.value * x)
+val x=sc.textFile("file:///home/hduser/cust").head.toList
+val x=sc.textFile("file:///home/hduser/cust").collect.head.toList
+val x=sc.textFile("file:///home/hduser/cust").map(_.split(",")).map(_(0))
+x.collect
+val x=sc.textFile("file:///home/hduser/cust").map(_.split(",")).map(_(0)).collect.toList
+val multiplied = input.map(x => broadcastVar.value(1) * x)
+val multiplied = input.map(x => broadcastVar.value(0) * x)
+val multiplied = input.map(x => broadcastVar.value * x)
+val broadcastVar = sc.broadcast(x)
+val multiplied = input.map(x => broadcastVar.value(0) * x)
+multiplied.collect
+val multiplied = input.map(x => broadcastVar.value(1) * x)
+multiplied.collect
+input
+input.collect
+broadcastVar.value(1)
+val multiplied = input.map(x => broadcastVar.value(1) + x)
+multiplied.collect
+val multiplied = input.map(x => broadcastVar.value(1).toInt + x)
+multiplied.collect
+val sparkSession =
+SparkSession.builder.enableHiveSupport.getOrCreate()
+val ss=new org.apache.spark.sql.SparkSession.builder().getOrCreate()
+val ss=org.apache.spark.sql.SparkSession.builder().getOrCreate()
+ss
+ss.sparkContext
+val sparkSession = SparkSession.builder.getOrCreate()
+import org.apache.spark.sql.SparkSession
+val sparkSession = SparkSession.builder.getOrCreate()
+val x=sc.textFile("file:///home/hduser/cust")
+x.foreach(println)
+val x=sc.textFile("file:///home/hduser/cust").map(x=>x.split(","))
+x.foreach(println)
+val x=sc.textFile("file:///home/hduser/cust").map(x=>x.split(",")).map(x=>(x(1),x(0)))
+x.foreach(println)
+val rdd=sc.textFile("file:///home/hduser/cust")
+rdd.foreach(println)
+val rdd=sc.textFile("file:///home/hduser/cust").map(_.split(","))
+rdd.foreach(println)
+val rdd=sc.textFile("file:///home/hduser/cust").map(_.split(",")).map(x=>x(2))
+rdd.foreach(println)
+val rdd=sc.textFile("file:///home/hduser/cust").map(_.split(",")).map(x=>(x(2),x(0)))
+rdd.foreach(println)
+val rdd=sc.textFile("file:///home/hduser/cust").map(_.split(",")).map(x=>(x(2),x(0)))
+val rdd2=rdd.map(x=>x(1))
+val rdd2=rdd.map(x=>x._2)
+rdd2.foreach(println)
+val rdd=sc.textFile("file:///home/hduser/cust").map(_.split(",")).map(x=>(x(2),x(0).toInt))
+val a="hi hello how r u"
+val b=a.split(" ")
+println(b(2))
+val rdd=sc.textFile("file:///home/hduser/cust").map(_.split(",")).map(x=>(x(2),x(0).toInt))
+rdd.take(1)
+val rdd=sc.textFile("file:///home/hduser/cust")
+rdd.count
+val rdd=sc.textFile("file:///home/hduser/cust")
+val rdd1=rdd.map(_.split(","))
+val rdd2=rdd1.map(x=>(x(0),x(2)))
+rdd2.map(x=>x._1).foreach(println)
+rdd2.map(x=>x._1).collect
+val rdd=sc.textFile("file:///home/hduser/cust").map(_.split(",")).map(x=>(x(2),x(0).toInt)).map(x=>(x._2,x._1))
+val fmrdd = lines.flatMap( l => l.split(","))
+val lines = sc.textFile("file:/home/hduser/sparkdata/empdata.txt")
+val fmrdd = lines.flatMap( l => l.split(","))
+fmrdd.foreach(println)
+val fmrdd = lines.flatMap( l => l.split(","))val numbers = sc.parallelize((1 to 100).toList,5)
+val numbers = sc.parallelize((1 to 100).toList,5)
+numbers.glom().collect
+val pairRdd1 = sc.parallelize(List(("a", 1), ("b",2), ("c",3)))
+val pairRdd2 = sc.parallelize(List(("b", "second"), ("c","third"), ("d","fourth")))
+val joinRdd = pairRdd1.join(pairRdd2)
+joinRdd.collect
+joinRdd.foreach(println)
+val numbersRdd = sc.parallelize(List(2, 5, 3, 1))
+numbersRdd.reduce((x,y)=>x+y)
+var x=0;
+val arr = List(2, 5, 3, 1)
+for (y <- arr) {
+x=x+y;
+}
+println(x)
+numbersRdd.reduce(_+_)
+val pairRdd = sc.parallelize(List(("a", 1), ("b",2), ("c",3), ("a", 11), ("b",22), ("a",111)))
+val sumByKeyRdd = pairRdd.reduceByKey((x,y) => x+y)
+sumByKeyRdd
+sumByKeyRdd.foreach(println)
+val minByKeyRdd = pairRdd.reduceByKey((x,y) => if (x < y) x else y)
+minByKeyRdd.foreach(println)
+var x:Int=();
+var x:Unit=();
+val y=10
+x=y;
+var x=0;
+x=y;
+x=y+x;
+val y=30
+x=y+x;
+sc.setCheckpointDir("/tmp/ckptdir")
+val ckptrdd = sc.parallelize(1 to 4)
+sc.setCheckpointDir("file:///tmp/ckptdir")
+val ckptrdd = sc.parallelize(1 to 4)
+ckptrdd.checkpoint
+ckptrdd.count
+val rdd = sc.parallelize(List(1, 2, 3, 4, 1, 2, 3, 1, 2, 1))
+val counts = rdd.countByValue
+val rdd = sc.textFile("file:/home/hduser/hive/data/txns",10)
+   rdd.take(5)
+val broadcastVar = sc.broadcast(Array(1,3,4))
+broadcastVar.value(1)
+broadcastVar.value(0)
+broadcastVar.key(0)
+broadcastVar.key
+broadcastVar.id
+val broadcastVar1 = sc.broadcast(Array(1,3,4,5))
+broadcastVar1.id
+val rdd11 = sc.textFile("file:/home/hduser/hive/data/txns")
+val rddsplit=rdd.map(x=>x.split(","))
+val rddsplit=rdd.map(x=>x.split(",")).map(x=>(x(0),x(1)))
+val rddsplit=rdd.map(x=>x.split(",")).map(x=>(x(0),x(1))).take(10)
+rddsplit.toString.toMap
+val rddsplit=rdd.map(x=>x.split(",")).map(x=>(x(0),x(1))).toMap
+val rddsplit=rdd.map(x=>x.split(",")).map(x=>(x(0)'->' x(1)))
+val rddsplit=rdd.map(x=>x.split(",")).map(x=>(x(0)-> x(1)))
+rddsplit.take(19)
+val rddsplit=rdd.map(x=>x.split(",")).map(x=>(x(0), x(1)).toMap)
+val rddsplit=rdd.map(x=>x.split(",")).map(x=>(x(0), x(1))).map(x=>x.toMap)
+val rddsplit=rdd.map(x=>x.split(",")).map(x=>(x(0), x(1))).map(x=>x.toList.toMap)
+val rddsplit=rdd.map(x=>x.split(",")).map(x=>(x(0), x(1))).map(x=>x.toList)
+val rddsplit=rdd.map(x=>x.split(",")).map(x=>(x(0),"->",x(1)))
+rddsplit.take(10)
+val rdd = sc.parallelize((1 to 10000).toList)
+val filteredRdd = rdd filter { x => (x % 1000) == 0}
+filteredRdd.collect
+filteredRdd.foreach(print)
+filteredRdd.foreach(println)
+filteredRdd.take(10)
+filteredRdd.count
+filteredRdd.takeSample(5,2)
+filteredRdd.takeSample(true)
+filteredRdd.takeSample(true,3,2)
+val rdd = sc.parallelize(List(1, 2, 3, 4, 1, 2, 3, 1, 2, 1))
+rdd.countByValue
+res99(4)
+res99(2)
+val numbersRdd = sc.parallelize(List(2, 5, 3, 1))
+val sum = numbersRdd.reduce ((x, y) => x + y)
+val pairRdd = sc.parallelize(List(("a", 1), ("b", 2), ("c", 3), ("a", 11), ("b", 22), ("a", 1)))
+pairRdd.countByKey
+val pairRdd = sc.parallelize(List(("a", 1), ("b", 2), ("c", 3), ("a", 11), ("b", 22), ("a",1)))
+val values = pairRdd.lookup("a")
+val values = pairRdd.lookup("b")
+val values = pairRdd.lookup("c")
+val values = pairRdd.lookup("d")
+val logs = sc.textFile("file:/usr/local/hadoop/logs/hadoop-hduser-datanode-Inceptez.log")
+val errorsAndWarnings = logs filter { l => l.contains("ERROR") || l.contains("WARN")}
+errorsAndWarnings.count
+errorsAndWarnings.saveAsTextFile("hdfs:///user/hduser/ errorsAndWarnings")
+errorsAndWarnings.saveAsTextFile("hdfs:///user/hduser/errorsAndWarnings")
+val fs = org.apache.hadoop.fs.FileSystem.get(new java.net.URI("hdfs://localhost:54310"),
+sc.hadoopConfiguration)
+fs.delete(new org.apache.hadoop.fs.Path("/user/hduser/errorsAndWarnings"),true)
+errorsAndWarnings.saveAsTextFile("hdfs:///user/hduser/errorsAndWarnings")
+val pairRdd = sc.parallelize(List(("a", 1), ("b", 2), ("c", 3), ("a", 11), ("b", 22), ("a", 1)))
+val countOfEachKey = pairRdd.countByKey
+sc.parallelize(countOfEachKey)
+val pairRdd = sc.parallelize(1 to 4000)
+val a = pairRdd.collect
+a
+sc.parallelize(a);
+a
+val logs = sc.textFile("file:/usr/local/hadoop/logs/hadoop-hduser-datanode-Inceptez.log").map(x=>x.split(" ")).map(x=>x(0))
+logs.take(10)
+val x=logs.take(10)
+sc.parallelize(a);
+sc.parallelize(x);
+val x=logs.take(10)
+sc.parallelize(x);
+x
+val y=logs.take(10)
+y
+sc.parallelize(y);
+errorsAndWarnings.cache()
+val errorLogs = errorsAndWarnings filter { l => l.contains("ERROR")}
+val warningLogs = errorsAndWarnings filter { l => l.contains("WARN")}
+errorLogs.count
+warningLogs.count
+errorsAndWarnings.unpersist()
+warningLogs.count
+errorsAndWarnings.cache()
+warningLogs.count
+errorsAndWarnings.unpersist()
+errorsAndWarnings.persist()
+warningLogs.count
+import org.apache.spark.storage.
+_
+val lines = sc.textFile("file:/home/hduser/sparkdata/empdata.txt")
+lines.persist(org.apache.spark.storage.StorageLevel.DISK_ONLY)
+lines.persist(org.apache.spark.storage.StorageLevel.DISK_ONLY_2)
+lines.unpersist()
+lines.persist(org.apache.spark.storage.StorageLevel.DISK_ONLY_2)
+lines.getStorageLevel.description
+val x=List(1,2,3)
+x.reduce((x,y)=>x+(y+1))
+x.reduce((x,y)=>(x+1)+(y+1))
+x.reduce((x,y)=>(x+1)+(y))
+x.reduce((x,y)=>(x)+(y))
+x.reduce((x,y)=>(x+y))
+x.reduce((x,y)=>(x+y-1))
+x.reduce((x,y)=>(x+y+2))
+ val rdd = sc.textFile("file:/home/hduser/hive/data/txns",1)
+   val rddsplit=rdd.map(x=>x.split(","))
+rddsplit.map(x=>(x(0),x(3).toDouble+(if (x(8)=="credit") 
+{2} else 1 )))
+res146.take(2)
+sc.textFile("file:/home/hduser/hive/data/txns",1).map(_.split(",")).map(x(0),x(1)).collectAsMap
+collecval kvpair: Map[String,Int] = Map("credit" -> 2, "cash" -> 1)
+  val broadcastkvpair=sc.broadcast(kvpair)
+val kvpair: Map[String,Int] = Map("credit" -> 2, "cash" -> 1)
+  val broadcastkvpair=sc.broadcast(kvpair)
+broadcastkvpair.value("credit")
+sc.textFile("file:/home/hduser/hive/data/txns",1).map(_.split(",")).map(x(0)-> x(1))
+sc.textFile("file:/home/hduser/hive/data/txns",1).map(_.split(",")).map(x(0) -> x(1))
+sc.textFile("file:/home/hduser/hive/data/txns",1).map(_.split(",")).map(x(0),x(1)).toMap
+sc.textFile("file:/home/hduser/hive/data/txns",1).map(_.split(",")).map(x(0) -> x(1)).toMap
+sc.textFile("file:/home/hduser/hive/data/txns",1).map(_.split(",")).map(x(0),x(1)).map(x=>(x._1 -> x._2).toMap
+)
+sc.textFile("file:/home/hduser/hive/data/txns",1).map(_.split(",")).map(x(0),x(1)).map(x=>(x._1 -> x._2)).toMap
+sc.textFile("file:/home/hduser/hive/data/txns",1).map(_.split(",")).map(x(0),x(1)).map(x=>(x._1 -> x._2)).collect.toMap
+sc.textFile("file:/home/hduser/hive/data/txns",1).map(_.split(",")).map(x(0),x(1)).map(x=>(x._1 -> x._2)).collect
+sc.textFile("file:/home/hduser/hive/data/txns",1).map(_.split(",")).map(x(0),x(1)).map(x=>(x._1, x._2)).collect
+sc.textFile("file:/home/hduser/hive/data/txns",1).map(_.split(",")).map(x(0),x(1))
+sc.textFile("file:/home/hduser/hive/data/txns",1).map(_.split(","))
+sc.textFile("file:/home/hduser/hive/data/txns",1).map(_.split(",")).map(x=>x(0),x(1)).map(x=>(x._1, x._2)).collect
+sc.textFile("file:/home/hduser/hive/data/txns",1).map(_.split(",")).map(x=>(x(0),x(1))).map(x=>(x._1, x._2)).collect
+sc.textFile("file:/home/hduser/hive/data/txns",1).map(_.split(",")).map(x=>(x(0),x(1))).map(x=>(x._1, x._2)).toMap
+sc.textFile("file:/home/hduser/hive/data/txns",1).map(_.split(",")).map(x=>(x(0),x(1))).map(x=>(x._1, x._2)).collect.toMap
+sc.textFile("file:/home/hduser/hive/data/txns",1).map(_.split(",")).map(x=>(x(0),x(1))).map(x=>(x._1, x._2)).take(10).toMap
+sc.textFile("file:/home/hduser/hive/data/txns",1).map(_.split(",")).map(x=>(x(8),10)).map(x=>(x._1, x._2)).take(10).toMap
+sc.textFile("file:/home/hduser/hive/data/txns",1).map(_.split(",")).map(x=>(x(8),10)).distinct.map(x=>(x._1, x._2)).take(10).toMap
+res167.count
+res167.count()
+res167
+sc.textFile("file:/home/hduser/hive/data/txns",1).map(_.split(",")).map(x=>((x(7),x(8)),(x(3),x(3))))
+val rddkvpair=sc.textFile("file:/home/hduser/hive/data/txns",1).map(_.split(",")).map(x=>((x(7),x(8)),(x(3),x(3))))
+rddkvpair.take(2)
+val rddkvpair=sc.textFile("file:/home/hduser/hive/data/txns",1).map(_.split(",")).map(x=>((x(7),x(8)),(x(3),x(3)))).reduceByKey((x,y)=>(x._1+y._1))
+val rddkvpair=sc.textFile("file:/home/hduser/hive/data/txns",1).map(_.split(",")).map(x=>((x(7),x(8)),(x(3),x(3)))).reduceByKey((x,y)=>(x+y))
+val rddkvpair=sc.textFile("file:/home/hduser/hive/data/txns",1).map(_.split(",")).map(x=>((x(7),x(8)),(x(3).toDouble,x(3).toDouble))).reduceByKey((x,y)=>(x+y))
+val custrdd=sc.textFile("file:/home/hduser/hive/data/custs");
+  
+  custrdd.cache;
+  
+  val transkvpair = rdd.map(x => x.split(",")).map(x => (x(2),(x(0),x(1),x(3),x(5))))
+  transkvpair.cache;
+  
+  val custrddkvpair = custrdd.map(x => x.split(",")).map(x => (x(0),(x(3),x(4))))
+    
+  custrddkvpair.take(10).foreach(println)
+custtransjoin.take(10).foreach(println)
+val custtransjoin = transkvpair.join(custrddkvpair)
+custtransjoin.take(10).foreach(println)
+val custrddkvpair = custrdd.map(x => x.split(",")).map(x => (x(0),(x(2),x(3))))
+    
+val custtransjoin = transkvpair.join(custrddkvpair)
+custtransjoin.take(10).foreach(println)
+val finaljoinrdd=custtransjoin.map(x=>(x._1,x._2._3,x._2._4,x._3._2))
+val finaljoinrdd=custtransjoin.map(x=>(x._1,x._2))
+val finaljoinrdd=custtransjoin.map(x=>(x._1,x._2._1))
+val finaljoinrdd=custtransjoin.map(x=>(x._1,x._2._1._3))
+val finaljoinrdd=custtransjoin.map(x=>(x._1,x._2._1._3,x._3._1._2))
+val finaljoinrdd=custtransjoin.map(x=>(x._1,x._2._1._3,x._3._1._1))
+val finaljoinrdd=custtransjoin.map(x=>(x._1,x._2._1._3))
+finaljoinrdd.take(10).foreach(println)
+ val filerdd = sc.textFile("file:/home/hduser/hive/data/custs")
+val rdd1 = filerdd.map(x => x.split(","))
+               .filter(x => x.length == 5)
+               .map(x => customer(x(0).toI
+val rdd1 = filerdd.map(x => x.split(",")).filter(x => x.length == 5)
+.map(x => customer(x(0).toInt,x(1),x(2),x(3).toInt,x(4)))
+val rdd1 = filerdd.map(x => x.split(",")).filter(x => x.length == 5).map(x => customer(x(0).toInt,x(1),x(2),x(3).toInt,x(4)))
+case class customer(custid:Int,custfname:String,custlname:String,custage:Int,custprofession:String)
+val rdd1 = filerdd.map(x => x.split(",")).filter(x => x.length == 5).map(x => customer(x(0).toInt,x(1),x(2),x(3).toInt,x(4)))
+val filedf = rdd1.toDF()
+import org.apache.spark.sql.Row;
+    import org.apache.spark.sql.type
+import org.apache.spark.sql.type
+import org.apache.spark.sql.types
+import org.apache.spark.sql.types._
+val rddrow = filerdd.map(x => x.split(",")).filter(x => x.length == 5).map(x => Row(x(0).toInt,x(1),x(2),x(3).toInt,x(4)))
+val rdd1 = filerdd.map(x => x.split(",")).filter(x => x.length == 5).map(x => customer(x(0).toInt,x(1),x(2),x(3).toInt,x(4)))
+rddrow.take(10)
+rddrow.map(x=>x).take(19)
+rdd2.take(10)
+rdd1.take(10)
+import org.apache.spark.sql.types.{StructType, StructField, StringType, IntegerType}
+val custschema = StructType(Array(StructField("first_name", StringType,
+true),StructField("last_name", StringType, true),StructField("company_name", StringType,
+true),StructField("address", StringType, true),StructField("city", StringType,
+true),StructField("country", StringType, true),StructField("state", StringType,
+true),StructField("zip", StringType, true),StructField("age", IntegerType,
+true),StructField("phone1", StringType, true),StructField("phone2", StringType,
+true),StructField("email", StringType, true),StructField("website", StringType, true)));
+val uscsvdf1 =
+sqlctx.read.option("delimiter",",").schema(custschema).csv("file:///home/hduser/sparkdata/
+usdata.csv")
+sqlctx.read.option("delimiter",",").schema(custschema).csv("file:///home/hduser/sparkdata/usdata.csv")
+sql.read.option("delimiter",",").schema(custschema).csv("file:///home/hduser/sparkdata/usdata.csv")
+val sqlctx=new SqlContext(sc);
+val sqlctx=new SQLContext(sc);
+val sqlctx=SQLContext(sc);
+val sqlctx=new org.apache.spark.sql.SQLContext(sc);
+sqlctx.read.option("delimiter",",").schema(custschema).csv("file:///home/hduser/sparkdata/usdata.csv")
+uscsvdf1.printSchema
+sqlctx.read.option("delimiter",",").schema(custschema).csv("file:///home/hduser/sparkdata/usdata.csv").toDS
+def addfunc (a:Int,b:Int):Int=
+{
+return a+b
+}
+import org.apache.spark.sql.functions.udf
+spark.udf.register("addudf",addfunc _)
+spark.udf.register("addudf",addfunc _ _)
+def addfunc (a:Int,b:Int,c:Int):Int=
+{
+return a+b
+}
+spark.udf.register("addudf",addfunc _)
+case class auctionclass
+(auctionid:String,bid:Double,bidder:Int,bidderrate:Long,bidtime:Doubl
+e,daystolive:Long,item:String,openbid:Double,price:Double)
+case class auctionclass
+case class auctionclass (auctionid:String,bid:Double,bidder:Int,bidderrate:Long,bidtime:Doubl
+e,daystolive:Long,item:String,openbid:Double,price:Double)
+case class auctionclass (auctionid:String,bid:Double,bidder:Int,bidderrate:Long,bidtime:Double,daystolive:Long,item:String,openbid:Double,price:Double)
+val auctionjson = "file:/home/hduser/sparkdata/auctiondata.json";
+val auctionjsonDS = spark.read.json(auctionjson).as[auctionclass];
+case class auctionclass (auctionid:String,bid:Double,bidder:String,bidderrate:Long,bidtime:Double,daystolive:Long,item:String,openbid:Double,price:Double)
+val auctionjsonDS = spark.read.json(auctionjson).as[auctionclass];
+val input = sc.parallelize(List(1, 2, 3))
+val broadcastVar = sc.broadcast(2)
+val input = sc.parallelize(List(1, 2, 3))
+input.map(x=>x)
+res12.collect
+broadcastVar.value
+val broadcastvar1=2;
+input.map(x=>x+brodcastvr1)
+input.map(x=>x+brodcastvar1)
+input.map(x=>x+broadcastvar1)
+res17.collect
+broadcastVar
+val added = input.map(x => broadcastVar.value + x)
+broadcastVar.destroy
+val accum = sc.accumulator(0,"IZ Accumulator")
+sc.parallelize(Array(1, 2, 3)).foreach(x => accum += x)
+accum
+sc.parallelize(Array(1, 2, 3)).foreach(x => accum += 1)
+accum
+sc.parallelize(Array(1, 2, 3)).foreach(x => accum += 2)
+accum
+accum.zero
+sc.parallelize(Array(1, 2)).foreach(x => accum += 1)
+accum
+val accum = sc.accumulator(0,"IZ Accumulator")
+accum
+sc.parallelize(Array(1, 2)).foreach(x => accum += 1)
+accum
+sc.parallelize(Array(3)).foreach(x => accum += 1)
+accum
+sc.parallelize(Array(1,2,3,4,5,6,3)).foreach(x => accum += 1)
+accum
+accum.id
+accum.localValue
+accum
+accum.value
+sc.parallelize(Array(1,2,3,4,5,6,3)).foreach(x => accum += 1)
+accum.value
+.textFile("file:/home/hduser/hive/data/txns")
+   rdd.take(10)
+   //rdd.first()
+   println("Number of partition of the base file" + rdd.getNumPartitions);
+   println("Repartitioning to 10 partitions as its reading with 1 partition only when read from the file")
+   rdd.repartition(10);
+   val rddsplit=rdd.map(x=>x.split(","))
+   val rddexerjump = rddsplit.filter(x => x(4).toUpperCase.contains("EXERCISE") || x(5).toUpperCase.startsWith("JUMP"))
+   println("Coalesce to 1 partition as the volume of data is less")
+   println("Count the filtered rdd")
+val rdd = sc.textFile("file:/home/hduser/hive/data/txns")
+rdd.take(10)
+rdd.first()
+println("Number of partition of the base file" + rdd.getNumPartitions);
+println("Repartitioning to 10 partitions as its reading with 1 partition only when read from the file")
+rdd.repartition(10);
+val rddsplit=rdd.map(x=>x.split(","))
+val rddexerjump = rddsplit.filter(x => x(4).toUpperCase.contains("EXERCISE") || x(5).toUpperCase.startsWith("JUMP"))
+println("Coalesce to 1 partition as the volume of data is less")
+println("Count the filtered rdd")
+val rddexerjumpcnt= rddexerjump.count()
+println("No of lines with exercise or jumping: " + rddexerjumpcnt)
+println(s"No of lines are $rddexerjumpcnt with exercise or jumping")
+println(s"No of lines are $rddexerjumpcnt with exercise or jumping $rddexerjumpcnt")
+val rddkvpair=rddsplit.map(x=>((x(6)),(x(3).toDouble))) 
+  rddkvpair.countByKey().take(10).foreach(println)
+val rddcntbyval=rddsplit.map(x=>(x(8))) 
+  rddcntbyval.countByValue.take(10).forea
+rddcntbyval.countByValue.take(10).foreach(println)
+rddkvpair.reduceByKey((a,b)=> (if (a > b) a else b)).take(10).foreach(println)
+ val kvpair: Map[String,Int] = Map("credit" -> 2, "cash" -> 1)
+  
+  val broadcastkvpair=sc.broadcast(kvpair)
+broadcastkvpair.value
+broadcastkvpair.value("credit")
+val broadcastrdd=rddsplit.map(x=>(x(0),x(3).toDouble+broadcastkvpair.value(x(8))))
+broadcastrdd.take(4).foreach(println);
+  val custrdd=sc.textFile("file:/home/hduser/hive/data/custs");
+  
+  custrdd.cache;
+  
+  val transkvpair = rdd.map(x => x.split(",")).map(x => (x(2),(x(0),x(1),x(3),x(5))))
+  transkvpair.cache;
+  
+  val custrddkvpair = custrdd.map(x => x.split(",")).map(x => (x(0),(x(2),x(3))))
+    
+  val custtransjoin = transkvpair.join(custrddkvpair)
+custtransjoin.take(10).foreach(println)
+val finaljoinrdd=custtransjoin.map(x=>(x._1,x._2._1._3))  
+  finaljoinrdd.take(10).foreach(println)
+rddsplit
+val x=rddsplit.map(x=>(x(2),x(5)).take(10).toMap
+)
+val x=rddsplit.map(x=>(x(2),x(5))).take(10).toMap
+x
+val x=sc.textFile("file:///home/hduser/cust");
+x.collect
+x.collect.foreach(println)
+val y = x.map(_.split(",")).map(x=>(x(0),x(2))).collect
+val y = x.map(_.split(",")).map(x=>(x(0).toInt,x(2))).collect
+val y = x.map(_.split(",")).map(x=>(x(0).toInt,x(2))).collect.toMap
+sc.broadcast(y);
+val filerdd=sc.textFile("file:///home/hduser/hive/data/custs");
+val schemardd=filerdd.map(_.split(",")).map(x=>prof(x(3).toInt,x(4)));
+case class prof(age:Int,profession:String);
+val schemardd=filerdd.map(_.split(",")).map(x=>prof(x(3).toInt,x(4)));
+val df1=sqlc.createDataFrame(schemardd);
+val sqlc=new SQLContext(sc);
+val sqlc=new sql.SQLContext(sc);
+import org.apache.spark.sql._
+val sqlc=new SQLContext(sc);
+val df1=sqlc.createDataFrame(schemardd);
+val uscsvdf =
+sqlctx.read.option("header","true").option("inferschema","true").option("delimiter",",").csv(
+"file:///home/hduser/sparkdata/usdata.csv")
+uscsvdf.createOrReplaceTempView("view1")
+sql("select count(1) from view1").show(10);
+val schemardd=filerdd.map(_.split(",")).map(x=>(x(3).toInt,x(4)));
+    val df1=sqlc.createDataFrame(schemardd);
+df1.createOrReplaceTempView("profage")
+sql("select * from profage").show(10)
+sql("select * from profage where profession='Pilot'").show(10)
+val schemardd=filerdd.map(_.split(",")).filter(x=>x.length==5).map(x=>(x(3).toInt,x(4)));
+    val df1=sqlc.createDataFrame(schemardd);
+df1.createOrReplaceTempView("profage")
+sql("select * from profage where profession='Pilot'").show(10)
+sql("select * from profage where _2='Pilot'").show(10)
+sc
+val hadooplines= sc.textFile("hdfs:/user/hduser/empdata.txt")
+val lines = sc.textFile("file:/home/hduser/sparkdata/empdata.txt")
+val alllines = sc.textFile("file:/home/hduser/sparkdata/*data.txt")
+spark
+val rdd1=spark.sparkContext.textFile("file:///home/hduser/cust");
+rdd1.foreach(println)
+rdd1.collect
+rdd1.take(3)
+val lines = sc.textFile("file:/home/hduser/sparkdata/empdata.txt")
+val lines = sc.textFile("file:/home/hduser/sparkdata/empdata.txt",4)
+val lines = sc.textFile("file:/home/hduser/sparkdata/empdata.txt")
+lines.count
+val lines = sc.textFile("file:/home/hduser/sparkdata/empdata.txt")
+lines.count
+val lines = sc.textFile("file:/home/hduser/sparkdata/empdata.txt")
+lines.count
+val filterlines = lines.filter{ l => l.length > 37}
+filterlines.count
+val lines = sc.textFile("file:/home/hduser/sparkdata/empdata.txt")
+lines.foreach(println)
+filterlines.foreach(println)
+val filterlines = lines.filter{ l => l.length > 37}
+lines.filter{ l => l.length > 37}
+filterlines.foreach(println)
+filterlines.cache
+filterlines.count
+filterlines.unpersist
+filterlines.unpersist()
+filterlines.count
+val progrdd=sc.parallelize(Array(1,2,3))
+val arr=Array(1,2,3)
+val lines = sc.textFile("file:/home/hduser/sparkdata/empdata.txt")
+val a=List(1,2,3)
+a.map(x=>x).foreach(println)
+a.map(x=>x+10).foreach(println)
+for( i <- a) {
+}
+var x=0;
+for( i <- a) {
+i+10
+}
+for( i <- a) {
+x=i+10
+println(x)
+}
+a.map(x=>x+10)
+val lengths = lines map { l => l.length}
+lengths.foreach(println)
+val lines = sc.textFile("file:/home/hduser/sparkdata/empdata.txt")
+val lines1 = sc.textFile("file:/home/hduser/sparkdata/empdata.txt").map(x=>x.split(","))
+lines1.collect
+val lengths = {lines.map(x=>x.split(",")).map(l => l.length)}
+lengths.foreach(println)
+val lengths = {lines.map(x=>x.split(",")).map(l => l.length)}
+val lengths = {lines.map(x=>x.split(",")).map(l => (l(0),l(1)))}
+lengths.foreach(println)
+val lengths = {lines.map(l => (l(0),l(1)))}
+lengths.foreach(println)
+val lengths = {lines.map(x=>x.split(",")).filter(x=>x(1)=='chennai')}
+val lengths = {lines.map(x=>x.split(",")).filter(x=>x(1)=="chennai")}
+lengths.foreach(println)
+lengths.collect
+val a=Array(1,2,3)
+println(a)
+println(a(1))
+lengths.collect
+val lengths = {lines.map(x=>x.split(",")).filter(x=>x(1)=="chennai")}.map(x=>(x(0),x(1)))
+lengths.foreach(println)
+val lengths = {lines.map(x=>x.split(",")).filter(x=>x(1)=="chennai")}.map(x=>(x(0),x(1)))
+val x=(1,"Irfan")
+println(x)
+val chennaiLines = lines.map(x=>x.split(",")).filter(l => l(1).toUpperCase=="CHENNAI" )
+chennaiLines.collect
+val fmrdd = lines.flatMap( l => l.split(","))
+fmrdd.foreach(println)
+val fmrdd = lines.flatMap( l => l.split(",")).map(x=>x.toString.toUpperCase)
+fmrdd.foreach(println)
+val fmrdd = lines.flatMap( l => l.split(",")).map(x=>x.toString.toUpperCase)
+lines.getNumPartitions
+val lengths = lines.mapPartitions ( x => x.filter( l => l.length>20))
+lengths.foreach(println)
+lines.getNumPartitions
+val lines1 = sc.textFile("file:/home/hduser/sparkdata/empdata.txt").map(x=>x.split(","))
+val linesFile1 = sc.textFile("file:/home/hduser/sparkdata/empdata.txt")
+val linesFile2 = sc.textFile("file:/home/hduser/sparkdata/empdata1.txt")
+val linesFromBothFiles = linesFile1.union(linesFile2)
+linesFromBothFiles.foreach(println)
+linesFromBothFiles.distinct.foreach(println)
+linesFromBothFiles.map(x=>x.split(","))
+res137.collect
+val x= linesFromBothFiles.map(x=>x.split(",")).map(x=>(x(1)).distinct
+)
+val x= linesFromBothFiles.map(x=>x.split(",")).map(x=>(x(1))).distinct
+x.collect
+val linesFile1 = sc.textFile("file:/home/hduser/sparkdata/empdata.txt")
+val ziplines = linesFile1.zip(linesFile1)
+ziplines.foreach(println)
+val ziplines = linesFile1.zip(linesFile2)
+ziplines.foreach(println)
+val a=(1,"Irfan")
+a._1
+case class x(id:Int,name:String)
+val a=x(1,"Irfan")
+a.id
+a.name
+lines.take(10)
+val rdd1=lines.map(_.split(","))
+lines
+val rdd1=lines.map(_.split(",")).map(x=>x.length).distinct
+rdd1.collect
+val rdd1=lines.map(_.split(",")).map(x=>(x(0),x(1),x(2),x(3),x(4)))
+rdd1.map(x=>x._2).foreach(println)
+case class customer(name:String,city:String,age:Int);
+rdd1
+rdd1.collect
+case class customer(name:String,city:String,age:Int,amt:Long);
+val rdd1=lines.map(_.split(",")).map(x=>customer(x(0),x(1),x(2),x(4)))
+val rdd1=lines.map(_.split(",")).map(x=>customer(x(0),x(1),x(2),x(4).toLong))
+val rdd1=lines.map(_.split(",")).map(x=>customer(x(0),x(1),x(2).toInt,x(4).toLong))
+rdd1.take(2)
+lines.map(_.split(",")).map(x=>customer(x(0),x(1),x(2).toInt,x(4).toLong)).map(x=>x.name).take(10)
+case class customer(name:String,city:String,age:Int,amt:String);
+lines.map(_.split(",")).map(x=>customer(x(0),x(1),x(2).toInt,x(4))).map(x=>x.name).take(10)
+case class Customer(name: String, city: String, age: Int)
+val customers = lines.map(x=>x.split(",")).map(x=>Customer(x(0), x(1), x(2).toInt))
+val groupByZip = customers.groupBy { a => a.city}
+groupByZip.collect
+val groupByZip = customers.groupBy { a => a._2}
+val groupByZip = customers.groupBy { a => a.city}
+val groupByZip = customers.groupBy { a => a.city}.filter(x=>x._1=="chennai")
+groupByZip.collect
+val customers = lines.map(x=>x.split(",")).map(x=>(x(0), x(1), x(2).toInt))
+val groupByZip = customers.groupBy { a => a._2}
+val customers = lines.map(x=>x.split(",")).map(x=>Customer(x(0), x(1), x(2).toInt))
+val rdd1=sc.parallelize(List(1 to 1000))
+rdd1.getNumPartitions
+val rdd1=sc.parallelize(List(1 to 1000))
+rdd1.glom.collect
+val rdd1=sc.parallelize(List(1 to 100))
+rdd1.glom.collect
+val rdd1=sc.parallelize(List(1 to 100),2)
+rdd1.glom.collect
+val rdd1=sc.parallelize(List(1 to 100),3)
+rdd1.glom.collect
+val numbers = sc.parallelize((1 to 100).toList,5)
+numbers.glom.collect
+val reduced=numbers.coalesce(1)
+numbers.getNumPartitions
+reduced.getNumPartitions
+reduced.glom.collect
+val repart=reduced.repartition(6)
+repart.glom.collect
+val numbers = sc.parallelize((1 to 100).toList,5)
+numbers.partitions.size
+numbers.glom().collect
+val numbersWithTwoPartition = numbers.coalesce(2)
+numbersWithTwoPartition.glom().collect
+val numbersWithFourPartition = numbers.repartition(6)
+numbersWithFourPartition.glom().collect
+val sortedByAge = customers sortBy( p => p.age, true)
+sortedByAge.foreach(println)
+customers.getNumPartitions
+val sortedByAge = customers sortBy( p => p.age, true)
+customers.getNumPartitions
+sortedByAge.foreach(println)
+customers.glom.collect
+val sortedByAge = customers sortBy( p => p.age, true)
+sortedByAge.foreach(println)
+sortedByAge.coalesce(1).foreach(println)
+val pairRdd1 = sc.parallelize(List(("a", 1), ("b",2), ("c",3)))
+val pairRdd2 = sc.parallelize(List(("b", "second"), ("c","third"), ("d","fourth")))
+val joinRdd = pairRdd1.join(pairRdd2)
+joinRdd.forech(println)
+joinRdd.foreach(println)
+lines
+lines.map(_.split(",")).map(x=>(x(0),x(1)).productIterator.mkString("|")
+)
+lines.map(_.split(",")).map(x=>(x(0),x(1))).productIterator.mkString("|")
+lines.map(_.split(",")).map(x=>(x(0),x(1))).productIterator.mkString("|").collect
+lines.map(_.split(",")).map(x=>(x(0),x(1))).productIterator.mkString("|").collect()
+lines.map(_.split(",")).map(x=>(x(0),x(1))).productIterator.mkString("|").collect(_)
+lines.map(_.split(",")).map(x=>(x(0),x(1))).productIterator.mkString("|").take(10)
+val x=lines.map(_.split(",")).map(x=>(x(0),x(1))).productIterator.mkString("|")
+x
+lines.map(_.split(",")).map(x=>(x(0),x(1)).productIterator.mkString("|")).saveAsTe
+lines.map(_.split(",")).map(x=>(x(0),x(1)).productIterator.mkString("|")).saveAsTextFile("file:///home/hduser/sout/")
+lines.map(_.split(",")).map(x=>(x(0),x(1)).productIterator).saveAsTextFile("file:///home/hduser/sout1/")
+val dfcsv = sqlc.read.format("csv")
+    //.option("header",true)
+    .option("delimiter",",")
+    .option("inferSchema",true)
+    .load("file:/home/hduser
+val dfcsv = sqlc.read.format("csv").option("delimiter",",").option("inferSchema",true).load("file:/home/hduser/hive/data/custs")
+dfcsv.withColumnRena
+dfcsv.withColumnRenamed("_1","custid")
+res196.printSchema
+dfcsv.withColumnRenamed("_c0","custid")
+res199.printSchema
+res198.printSchema
+dfcsv.select("_c0".alias"custid")
+dfcsv.select("_c0".alias("custid"))
+dfcsv.select($"_c0".alias("custid"))
+dfcsv.select($"_c0".alias("custid"),$"_c1".alias("Custname"))
+val pairRdd1 = sc.parallelize(List(("a", 1), ("b",2), ("c",3)))
+val pairRdd2 = sc.parallelize(List(("b", "second"), ("c","third"), ("d","fourth")))
+val joinRdd = pairRdd1.join(pairRdd2)
+joinRdd.foreach(println)
+val a=joinRdd.foreach(println)
+val joinRdd = pairRdd1.rightOuterJoin(pairRdd2)
+joinRdd.foreach(println)
+val joinRdd = pairRdd1.fullOuterJoin(pairRdd2)
+joinRdd.foreach(println)
+val pairRdd = sc.parallelize(List(("a", 1), ("b",2), ("c",3), ("a", 11), ("b",22), ("a",111)))
+pairRdd.reduceByKey((x,y)=>x+y)
+res207.foreach(println)
+pairRdd.reduceByKey((x,y)=>x*y)
+res207.foreach(println)
+res209.foreach(println)
+val numbersRdd = sc.parallelize(List(2, 5, 3, 1))
+numbersRdd.reduce ((x, y) => x + y)
+val pairRdd = sc.parallelize(List(("a", 1), ("b",2), ("c",3), ("a", 11), ("b",22), ("a",111)))
+val sumByKeyRdd = pairRdd.reduceByKey((x,y) => x+y)
+val minByKeyRdd = pairRdd.reduceByKey((x,y) => if (x < y) x else y)
+minByKeyRdd.collect
+lines.map(_.split(",")).map(x=>(x(0),x(3)))
+res215.collect
+lines.map(_.split(",")).map(x=>(x(0),x(2)))
+res217.collect
+lines.map(_.split(",")).map(x=>(x(2)))
+res219.collect
+lines.map(_.split(",")).map(x=>(x(2).toInt)).reduce(_+_)
+lines.map(_.split(",")).map(x=>(x(2).toInt)).reduce((x,y)=>x+(y*2))
+res222.collect
+val pairRdd = sc.parallelize(List(("a", 1), ("b",2), ("c",3), ("a", 11), ("b",22), ("a",111)))
+val pairRdd = List(("a", 1), ("b",2), ("c",3), ("a", 11), ("b",22), ("a",111))
+val pairRdd = sc.parallelize(List(("a", 1), ("b",2), ("c",3), ("a", 11), ("b",22), ("a",111)))
+pairRdd.glom.collect
+val pairRdd = sc.parallelize(List(("a", 1), ("b",2), ("c",3), ("a", 11), ("b",22), ("a",111)),6)
+pairRdd.glom.collect
+val pairRdd = List(("a", 1), ("b",2), ("c",3), ("a", 11), ("b",22), ("a",111))
+lines.map(_.split(",")).map(x=>(x(2).toInt)).collect
+val x=sc.parallelize(res226)
+x
+sc.setCheckpointDir("/tmp/ckptdir")
+val ckptrdd = sc.parallelize(1 to 4)
+ckptrdd.checkpoint
+ckptrdd.count
+sc
+val rdd1=sc.textFile("file:///home/hduser/cust")
+val rdd = sc.parallelize((1 to 10000).toList)
+rdd.count
+val total = rdd.count
+val rdd = sc.parallelize(List(1, 2, 3, 4, 1, 2, 3, 1, 2, 1))
+rdd.countByValue
+val x=Map(4 -> 1, 2 -> 3, 1 -> 4, 3 -> 2)
+x.keys
+x.keys.toList
+val rdd=sc.parallelize(res235)
+rdd.countByValue
+val numbersRdd = sc.parallelize(List(2, 5, 3, 1))
+val sum = numbersRdd.reduce ((x, y) => x + y)
+pairRdd.countByKey
+val pairRdd = sc.parallelize(List(("a", 1), ("b", 2), ("c", 3), ("a", 11), ("b", 22), ("a", 1)))
+pairRdd.countByKey
+val pairRdd = sc.parallelize(List(("a", 1), ("b", 2), ("c", 3), ("a", 11), ("b", 22), ("a",1)))
+pairRdd.lookup("a")
+val logs = sc.textFile("file:/usr/local/hadoop/logs/hadoop-hduser-datanode-Inceptez.log")
+logs.count
+val errorsAndWarnings = logs filter { l => l.contains("ERROR") || l.contains("WARN")}
+errorsAndWarnings.count
+errorsAndWarnings.saveAsTextFile("hdfs:///user/hduser/ errorsAndWarnings")
+val fs = org.apache.hadoop.fs.FileSystem.get(new java.net.URI("hdfs://localhost:54310"),
+sc.hadoopConfiguration)
+fs.delete(new org.apache.hadoop.fs.Path("/user/hduser/errorsAndWarnings"),true)
+errorsAndWarnings.saveAsTextFile("hdfs:///user/hduser/ errorsAndWarnings")
+errorsAndWarnings.saveAsTextFile("hdfs:///user/hduser/errorsAndWarnings")
+fs.delete(new org.apache.hadoop.fs.Path("/user/hduser/errorsAndWarnings"),true)
+errorsAndWarnings.saveAsTextFile("hdfs:///user/hduser/errorsAndWarnings")
+errorsAndWarnings.cache()
+errorsAndWarnings.count
+val errorLogs = errorsAndWarnings filter { l => l.contains("ERROR")}
+val warningLogs = errorsAndWarnings filter { l => l.contains("WARN")}
+errorLogs.count
+errorsAndWarnings.unpersist()
+errorLogs.count
+warningLogs.count
+errorsAndWarnings.persist()
+val lines = sc.textFile("file:/home/hduser/sparkdata/empdata.txt")
+import org.apache.spark.storage.StorageLevel
+import org.apache.spark.storage.StorageLevel._
+lines.persist(DISK_ONLY)
+lines.count
+lines.persist(org.apache.spark.storage.StorageLevel.DISK_ONLY_2)
+lines.unpersist()
+lines.persist(org.apache.spark.storage.StorageLevel.DISK_ONLY_2)
+lines.getStorageLevel.description
+val x=100;
+val input = sc.parallelize(List(1, 2, 3))
+input.getNumPartitions
+val x=100;
+val z=100;
+input.map(x=>x+z).collect
+input.map(x=>x).collect
+val bc=sc.broadcast(100);
+input.map(x=>x+bc.value).collect
+val x=100;
+lines.collect
+val a=sc.parallelize(Array(1,2,3,4))
+val bc=sc.broadcast(a);
+val b=a.collect;
+val bc=sc.broadcast(b);
+input.map(x=>x+bc.value(1)).collect
+val bonus=1000;
+val bc=sc.broadcast(bonus);
+sc.textFile("file:///home/hduser/empdata").map(_.split(",")).map(x=>(x(0),x(1)+bc.value)).take(4)
+sc.textFile("file:///home/hduser/empdata").map(_.split(",")).map(x=>(x(0),x(1).toInt+bc.value)).take(4)
+sc.textFile("file:///home/hduser/empdata").map(_.split(",")).map(x=>(x(0),x(1).toInt+bonus)).take(4)
+val accum = sc.accumulator(0,"IZ Accumulator")
+val a=sc.parallelize(Array(1,2,3,4))
+foreach(x=>accum+1)
+foreach(x=>accum+x)
+a.foreach(x=>accum+1)
+a.map(x=>accum+1).collect
+a.map(x=>accum+x).collect
+accum
+a.map(x=>accum+=1).collect
+a.foreach(x=>accum+=1).collect
+a.foreach(x=>accum+=1)
+accum.value
+a.map(x=>accum+=1).collect
+accum.value
+a.map(x=>accum+=1).collect
+accum.value
+a.map(x=>accum+=1)
+accum.value
+a.map(x=>accum+=1).collect
+accum.value
+val accum = sc.accumulator(0,"IZ Accumulator")
+a.collect
+a.glom.collect
+a.map(x=>accum+=1).collect
+accum.value
+lines.collect
+val rdd1=lines.map(_.split(","))
+case class cc(name:String,city:String,age:Int,dt:String,amt:Int);
+val rdd1=lines.map(_.split(",")).map(x=>(x(0),x(1),x(2).toInt,x(3),x(4).toInt)).toDF()
+val rdd1=lines.map(_.split(",")).map(x=>cc(x(0),x(1),x(2).toInt,x(3),x(4).toInt)).toDF()
+rdd1.select("age").show
+case class cc(name:String,city:String,age:Int,dt:String,amt:Int);
+val lines = sc.textFile("file:/home/hduser/sparkdata/empdata.txt")
+val rdd1=lines.map(_.split(",")).map(x=>cc(x(0),x(1),x(2).toInt,x(3),x(4).toInt)).toDF()
+rdd1.select("age").show
+val rdd1=lines.map(_.split(",")).map(x=>cc(x(0),x(1),x(2).toInt,x(3),x(4))).toDF()
+case class cc(name:String,city:String,age:Int,dt:String,amt:String);
+val rdd1=lines.map(_.split(",")).map(x=>cc(x(0),x(1),x(2).toInt,x(3),x(4))).toDF()
+rdd1.select("age").show
+case class Auction(auctionid: String, bid: Float, bidtime: Float, bidder: String, bidderrate:
+Integer, openbid: Float, price: Float, item: String, daystolive: Integer)
+// load the data into an RDD
+val auctionRDD = spark.sparkContext.textFile("file:///home/hduser/sparkdata/auctiondata")
+// create an RDD of Auction objects
+val ebay = auctionRDD.map(_.split("~")).map(p => Auction(p(0), p(1).toFloat, p(2).toFloat,
+p(3), p(4).toInt, p(5).toFloat, p(6).toFloat, p(7), p(8).toInt))
+val auction = spark.createDataFrame(ebay)
+auction.select("auctionid").distinct.count
+val grpbid =
+auction.groupBy("item").agg(max("bid").alias("max_bid"),sum("price").alias("sp")).sort($"sp"
+.desc)
+val grpbid =
+auction.groupBy("item").agg(max("bid").alias("max_bid"),sum("price").alias("sp")).sort($"sp"
+.desc)
+val grpbid = auction.groupBy("item").agg(max("bid").alias("max_bid"),sum("price").alias("sp")).sort($"sp".desc)
+val grpbid = auction.groupBy("item").agg(max("bid").alias("max_bid"),sum("price").alias("sp")).sort($"sp".desc).show
+val grpbid = auction.groupBy("item").agg(max("bid").alias("max_bid"),sum("price").alias("sp")).sort($"sp".desc).filter($"item"=="cartier").show
+val grpbid = auction.groupBy("item").agg(max("bid").alias("max_bid"),sum("price").alias("sp")).sort($"sp".desc).where($"item"=="cartier").show
+val grpbid = auction.groupBy("item").agg(max("bid").alias("max_bid"),sum("price").alias("sp")).sort($"sp".desc).where("item=='cartier'").show
+val grpbid = auction.groupBy("item").agg(max("bid").alias("max_bid"),sum("price").alias("sp")).sort($"sp".desc).where("item=='cartier' || item like 'palm'").show
+val grpbid = auction.groupBy("item").agg(max("bid").alias("max_bid"),sum("price").alias("sp")).sort($"sp".desc).filter($"item".contains("cartier")).show
+val grpbid = auction.groupBy("item").agg(max("bid").alias("max_bid"),sum("price").alias("sp")).sort($"sp".desc).filter($"item".contains("carti")).show
+val grpbid = auction.groupBy("item").agg(max("bid").alias("max_bid"),sum("price").alias("sp")).sort($"sp".desc).filter($"item".rlike("carti")).show
+val grpbid = auction.groupBy("item").agg(max("bid").alias("max_bid"),sum("price").alias("sp")).sort($"sp".desc).filter($"item".llike("carti")).show
+val grpbid = auction.groupBy("item").agg(max("bid").alias("max_bid"),sum("price").alias("sp")).sort($"sp".desc).filter($"item".like("carti")).show
+val grpbid = auction.groupBy("item").agg(max("bid").alias("max_bid"),sum("price").alias("sp")).sort($"sp".desc).filter($"item"=="carti").show
+val grpbid = auction.groupBy("item").agg(max("bid").alias("max_bid"),sum("price").alias("sp")).sort($"sp".desc).filter("item"=="carti").show
+val grpbid = auction.groupBy("item").agg(max("bid").alias("max_bid"),sum("price").alias("sp")).sort($"sp".desc).filter($"item"=="carti").show
+   val kvpair: Map[String,Int] = Map("credit" -> 2, "cash" -> 1)
+val broadcastkvpair=sc.broadcast(kvpair)
+broadcastkvpair.value
+broadcastkvpair.value("credit")
+broadcastkvpair.value("cash"))
+broadcastkvpair.value("cash")
+lines
+lines.collect
+val rdd1=lines.map(x=>x.split("_"))
+val rdd1=lines.map(x=>x.split(","))
+val rdd2=rdd1.map(x=>(x(0),x(1),x(2)))
+val rdd2=rdd1.map(x=>(x(0),x(1),x(2))).toDF()
+rdd2.createOrReplaceTempView("cust");
+sql("select * from cust").show
+val sparksess=org.apache.spark.sql.SparkSession.builder().getOrCreate();
+val sc1=new org.apache.spark.SparkContext();
+case class Auction(auctionid: String, bid: Float, bidtime: Float, bidder: String, bidderrate:
+Integer, openbid: Float, price: Float, item: String, daystolive: Integer)
+val auctionRDD = spark.sparkContext.textFile("file:///home/hduser/sparkdata/auctiondata")
+val ebay = auctionRDD.map(_.split("~"))
+val ebay = auctionRDD.map(_.split("~")).map(x=>(x(0),x(1)))
+ebay.toDF;
+res0.select("_1").show
+val ebay = auctionRDD.map(_.split("~")).map(x=>(x(0).toInt,x(1).toInt))
+res0.select("_1").show
+case class a(id:Int,bidamt:Int);
+val ebay = auctionRDD.map(_.split("~")).map(x=>a(x(0).toInt,x(1).toInt))
+val ebay = auctionRDD.map(_.split("~")).map(p => Auction(p(0), p(1).toFloat, p(2).toFloat,
+p(3), p(4).toInt, p(5).toFloat, p(6).toFloat, p(7), p(8).toInt))
+val auction = spark.createDataFrame(ebay)
+val count = auction.select("auctionid").distinct.count
+System.out.println(count)
+import org.apache.spark.sql.functions.avg
+import org.apache.spark.sql.functions
+import org.apache.spark.sql.functions._
+val grpbid =
+auction.groupBy("item").agg(max("bid").alias("max_bid"),sum("price").alias("sp")).sort($"sp"
+.desc)
+auction.printSchema
+grpbid.printSchema
+grpbid.show(10,false)
+grpbid.show(10)
+auction.show(10,false)
+auction.createOrReplaceTempView("auctiontbl")
+sql("select distinct item from auctiontbl").show
+sql("show tables").show
+val auction = spark.createDataFrame(ebay)
+auction.write.abc
+auction.write.mode("overwrite").json("file:/home/hduser/sparkdata/auctiondata.json");
+grpbid.write.mode("overwrite").json("file:/home/hduser/sparkdata/grpbid.json");
+sqlctx
+val sqlc=new SQLContext(sc);
+val sqlc=new sqlContext(sc);
+val sqlc=new SQLContext(sc);
+import org.apache.spark.sql._;
+val sqlc=new SQLContext(sc);
+val df=sqlc.read.csv("file:///home/hduser/hive/data/custs")
+df.select("_c1").show
+df.createOrReplaceTempView("tbl1")
+sql("select * from tbl1").show(10)
+sql("select min(age) from tbl1").show(10)
+sql("select _c4 from tbl1").show(10)
+sql("select min(_c3) from tbl1").show(10)
+val df=sqlc.read.option("inferschema",true).csv("file:///home/hduser/hive/data/custs")
+val df=sqlc.read.option("inferschema",true).csv("file:///home/hduser/hive/data/custs12")
+sql("select min(_c3) from tbl1").show(10)
+val df=sqlc.read.option("inferschema",true).csv("file:///home/hduser/hive/data/custs12")
+val df=sqlc.read.option("inferschema",true).csv("file:///home/hduser/hive/data/custs")
+sql("select min(_c3) from tbl1")
+res23.show
+sql("select min(_c0) from tbl1")
+res25.show
+sql("select max(_c0) from tbl1")
+res27.show
+val uscsvdf =
+sqlctx.read.option("header","true").option("inferschema","true").option("delimiter",",").csv(
+"file:///home/hduser/sparkdata/usdata.csv")
+val uscsvdf =
+sqlc.read.option("header","true").option("inferschema","true").option("delimiter",",").csv(
+"file:///home/hduser/sparkdata/usdata.csv")
+sqlc.read.option("header","true").option("delimiter",",").csv("file:///home/hduser/sparkdata/usdata.csv55")
+sqlc.read.option("delimiter",",").csv("file:///home/hduser/sparkdata/usdata.csv55")
+sqlc.read.csv("file:///home/hduser/sparkdata/usdata.csv55")
+import org.apache.spark.sql.types
+val x=sqlc.read.csv("file:///home/hduser/sparkdata/usdata.csv")
+x
+val uscsvdf =
+sqlctx.read.option("header","true").option("inferschema","true").option("delimiter",",").csv(
+"file:///home/hduser/sparkdata/usdata.csv")
+val uscsvdf =
+sqlc.read.option("header","true").option("inferschema","true").option("delimiter",",").csv(
+"file:///home/hduser/sparkdata/usdata.csv")
+uscsvdf.show(10,false)
+uscsvdf.show(10,true)
+uscsvdf.show(10)
+uscsvdf.show(10,false)
+val uscsvdf =
+sqlc.read.option("header","false").option("inferschema","true").option("delimiter",",").csv("file:///home/hduser/sparkdata/usdata.csv")
+uscsvdf.show(10,false)
+val uscsvdf =
+sqlc.read.option("header","true").option("inferschema","true").option("delimiter",",").csv("file:///home/hduser/sparkdata/usdata.csv").toDF("first_name","last_name","company_name","address","city","county","state","zip"
+,"age","phone1","phone3","email","web")
+uscsvdf.show(10,false)
+val uscsvdf =
+sqlc.read.option("header","false").option("inferschema","true").option("delimiter",",").csv("file:///home/hduser/sparkdata/usdata.csv").toDF("first_name","last_name","company_name","address","city","county","state","zip"
+,"age","phone1","phone3","email","web")
+uscsvdf.show(10,false)
+uscsvdf.printSchema
+val uscsvdf =
+sqlc.read.option("header","true").option("inferschema","true").option("delimiter",",").csv(
+"file:///home/hduser/sparkdata/usdata.csv")
+uscsvdf.createOrReplaceTempView("custinfo")
+spark.catalog.listDatabases.show(10,false);
+spark.catalog.listTables.show(10,false);
+def addfunc (a:Int,b:Int):Int=
+{
+return a+b
+}
+import org.apache.spark.sql.functions.udf
+spark.udf.register("addudf",addfunc _)
+spark.catalog.listFunctions.filter('name like "%addu%").show(false)
+spark.sql("SELECT addudf(20,30) FROM custinfo ").show()
+spark.sql("SELECT * FROM custinfo ").show()
+val sqlctx=new SQLContext(sc)
+sqlc
+sqlctx.sql("describe custinfo").show(10,false)
+sqlctx.sql("describe1 custinfo")
+sqlctx.sql("describe custinfo1")
+sql("select concat(first_name,' ',last_name),company_name,address,city,phone1 from
+custinfo where upper(company_name) like 'CH%'").show(10,false)
+sql("select count(1),city from custinfo group by city having count(1) >1 order by city").show()
+sql("select count(1) as cnt,city from custinfo group by city having count(1)> 5 order by
+city").show()
+sql("select count(1) as cnt,city from custinfo group by city having count(1)> 5 order by
+city").show()
+sql("select count(1) as cnt,city from custinfo group by city having count(1)> 5 order by city").show()
+val agecat = sqlctx.sql("select distinct age,case when age <=10 then 'childrens' when age >10
+and age < 20 then 'teen' else 'others' end as agecat from custinfo order by agecat")
+val agecat = sqlctx.sql("select distinct age,case when age <=10 then 'childrens' when age >10 and age < 20 then 'teen' else 'others' end as agecat from custinfo order by agecat")
+agecat.write.mode("overwrite").parquet("file:/home/hduser/sparkdata/agecategory.parquet");
+agecat.coalesce(1).write.mode("overwrite").parquet("file:/home/hduser/sparkdata/agecategory.parquet");
+val parquetagecatdf =
+spark.read.parquet("file:/home/hduser/sparkdata/agecategory.parquet")
+parquetagecatdf.printSchema
+spark.sql("SELECT max(age),min(age),count(distinct agecat) FROM parquetagecat ").show()
+parquetagecatdf.createOrReplaceTempView("parquetagecat")
+spark.sql("SELECT max(age),min(age),count(distinct agecat) FROM parquetagecat ").show()
+import org.apache.spark.sql.types
+val custschema = StructType(Array(StructField("first_name", StringType,
+true),StructField("last_name", StringType, true),StructField("company_name", StringType,
+true),StructField("address", StringType, true),StructField("city", StringType,
+true),StructField("country", StringType, true),StructField("state", StringType,
+true),StructField("zip", StringType, true),StructField("age", IntegerType,
+true),StructField("phone1", StringType, true),StructField("phone2", StringType,
+true),StructField("email", StringType, true),StructField("website", StringType, true)));
+import org.apache.spark.sql.types.{StructType, StructField, StringType, IntegerType}
+val custschema = StructType(Array(StructField("first_name", StringType,
+true),StructField("last_name", StringType, true),StructField("company_name", StringType,
+true),StructField("address", StringType, true),StructField("city", StringType,
+true),StructField("country", StringType, true),StructField("state", StringType,
+true),StructField("zip", StringType, true),StructField("age", IntegerType,
+true),StructField("phone1", StringType, true),StructField("phone2", StringType,
+true),StructField("email", StringType, true),StructField("website", StringType, true)));
+val uscsvdf1 =
+sqlctx.read.option("delimiter",",").schema(custschema).csv("file:///home/hduser/sparkdata/
+usdata.csv")
+val uscsvdf1 =
+sqlctx.read.option("delimiter",",").schema(custschema).csv("file:///home/hduser/sparkdata/usdata.csv")
+uscsvdf1.show(2)
+val uscsvdf1 =
+sqlctx.read.option("delimiter",",").option("header",false).schema(custschema).csv("file:///home/hduser/sparkdata/usdata.csv")
+uscsvdf1.show(2)
+uscsvdf1.show(2)val uscsvdf1 =
+sqlctx.read.option("delimiter",",").option("header","false").schema(custschema).csv("file:///home/hduser/sparkdata/usdata.csv")
+val uscsvdf1 =
+sqlctx.read.option("delimiter",",").option("header","false").schema(custschema).csv("file:///home/hduser/sparkdata/usdata.csv")
+uscsvdf1.show(2)
+val uscsvdf1 =
+sqlctx.read.option("delimiter",",").option("header","true").schema(custschema).csv("file:///home/hduser/sparkdata/usdata.csv")
+uscsvdf1.show(2)
+val uscsvdf1 =
+sqlctx.read.option("delimiter",",").schema(custschema).csv("file:///home/hduser/sparkdata/usdata.csv")
+uscsvdf1.show(2)
+sqlctx.read.option("delimiter",",").option("header","false").schema(custschema).csv("file:///home/hduser/sparkdata/usdata.csv")
+uscsvdf1.explain(true);
+val auctionjson = "/user/hduser/auctiondata.json";
+val auctionjsonDF = spark.read.json(auctionjson);
+auctionjsonDF.distinct.show
+case class auctionclass
+(auctionid:String,bid:Double,bidder:Int,bidderrate:Long,bidtime:Doubl
+e,daystolive:Long,item:String,openbid:Double,price:Double)
+case class auctionclass (auctionid:String,bid:Double,bidder:Int,bidderrate:Long,bidtime:Double,daystolive:Long,item:String,openbid:Double,price:Double)
+val auctionjson = "file:/home/hduser/sparkdata/auctiondata.json";
+spark.read.json(auctionjson)
+val auctionjsonDS = spark.read.json(auctionjson).as[auctionclass];
+case class auctionclass (auctionid:String,bid:Double,bidder:String,bidderrate:Long,bidtime:Double,daystolive:Long,item:String,openbid:Double,price:Double)
+val auctionjsonDS = spark.read.json(auctionjson).as[auctionclass];
+auctionjsonDS.select("bid").show
+auctionjsonDS.createOrReplaceTempView("view1");
+case class auctionclass (auctionid:String,bid:Double,bidder:Int,bidderrate:Long,bidtime:Double,daystolive:Long,item:String,openbid:Double,price:Double)auction
+auction
+auction.toDS
+val auctionjsonDS = spark.read.json(auctionjson)
+val auctionjsonDS = spark.read.json(auctionjson).as[auctionclass]
+import sqlc.implicits._
+import sqlctx.implicits._
+auctionjsonDS.toDF
+auctionjsonDS
+val df1=auctionjsonDS.toDF
+import sqlc.implicits._
+import spark.implicits._
+import spark.sql
+val hiveContext = new org.apache.spark.sql.hive.HiveContext(sc)
+val sparkSession =
+SparkSession.builder.enableHiveSupport.getOrCreate()
+sql("create database if not exists sparkdb")
+sql("show databases")
+sql("show databases").show
+sql("use sparkdb")
+sql("DROP TABLE IF EXISTS employee ")
+sql("CREATE TABLE IF NOT EXISTS employee(id INT, name STRING, age INT) ROW FORMAT
+DELIMITED FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'")
+sql("CREATE TABLE IF NOT EXISTS employee(id INT, name STRING, age INT) ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'")
+sql("show tables")
+sql("show tables").show
+spark.catalog.listTables.show(10,false);
+sql("LOAD DATA LOCAL INPATH '/home/hduser/sparkdata/employee.txt' INTO TABLE employee")
+val results = sql("FROM employee SELECT id, name, age")
+results.show()
+val results = sql("FROM employee SELECT id, name, age")
+case class empclass (id :Int,name :String,age:Int);
+val empdata_orc =
+spark.read.format("orc").load("hdfs:/user/hduser/emp_orc").as[empclass];
+results.write.format("orc").save("hdfs:/user/hduser/emp_orc")
+val empdata_orc =
+spark.read.format("orc").load("hdfs:/user/hduser/emp_orc").as[empclass];
+empdata_orc.createOrReplaceTempView("orcdata")
+sql("SELECT * from orcdata").collect.foreach(println)
